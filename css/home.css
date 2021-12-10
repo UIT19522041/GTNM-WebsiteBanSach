@@ -1,0 +1,62 @@
+/* Home CSS */
+/* App container */
+.app__container {
+    /* background-color: #F5F5F5; */
+    margin: 2px 0;
+    border: solid #ccc;
+    border-width: 2px 0; 
+}
+
+/* Banner Large */
+.banner-large__slider {
+    margin: 10px 0;
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-pagination {
+    --swiper-theme-color: #fff;
+    color: var(--swiper-theme-color);
+}
+
+.banner-small__link,
+.banner-large__link {
+    display: block;
+    text-decoration: none;
+    color: var(--text-color);
+    position: relative;
+}
+
+.banner-small__img,
+.banner-large__img {
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.banner-large__quote {
+    width: 40%;
+    height: 83%;
+    padding: 0 2%;
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.banner-large__quote.quote-right {
+    right: 5%;
+    left: auto;
+}
+
+.banner-large__quote-quote {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.4;
+}
+
+.banner-large__quote-source {
+    font-size: 26px;
+}

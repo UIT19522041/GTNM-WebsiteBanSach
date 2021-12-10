@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bookstore</title>
+
+    <!-- ICON FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- FONT FAMILY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;1,400&family=Lato:wght@300;400;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS RESET -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!-- CSS BASE-->
+    <link rel="stylesheet" href="../css/base.css">
+
+    <!-- CSS GRID SYSTEM -->
+    <link rel="stylesheet" href="../css/grid.css">
+
+    <!-- CSS for PAGE -->
+    <link rel="stylesheet" href="../css/template.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+</head>
+
+<body>
+    <!-- Block Element Modifier -->
+    <div class="app">
+        <header include-html="../templates/header.html"></header>
+
+        <div class="app__container">
+            <div class="banner-small">
+                <a href="" class="banner-small__link">
+                    <img src="../assets/images/landing page/banner/small-banner-1.jpg" alt="" class="banner-small__img">
+                </a>
+            </div>
+            <div class="swiper banner-large">
+                <div class="swiper-wrapper banner-large__list">
+                    <div class="swiper-slide banner-large__item">
+                        <a href="" class="banner-large__link">
+                            <img src="../assets/images/landing page/banner/large-banner-1.jpg" alt=""
+                                class="banner-large__img">
+                            <div class="banner-large__quote">
+                                <h2 class="banner-large__quote-quote">"Fans or readers, or even critics, who really want
+                                    to learn more about my life should read my lyrics..."</h2>
+                                <p class="banner-large__quote-source">&mdash; Paul McCartney</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide banner-large__item">
+                        <a href="" class="banner-large__link">
+                            <img src="../assets/images/landing page/banner/large-banner-2.jpg" alt=""
+                                class="banner-large__img">
+                            <div class="banner-large__quote">
+                                <h2 class="banner-large__quote-quote">"Quiet isn’t always peace, and the norms and
+                                    notions of what just is, isn’t always justice."</h2>
+                                <p class="banner-large__quote-source">&mdash; Amanda Gorman, <i>The Hill
+                                        We&nbsp;Climb</i></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide banner-large__item">
+                        <a href="" class="banner-large__link">
+                            <img src="../assets/images/landing page/banner/large-banner-3.jpg" alt=""
+                                class="banner-large__img">
+                            <div class="banner-large__quote quote-right">
+                                <p class="banner-large__quote-source">The Best Books of 2021 </p>
+                                <h2 class="banner-large__quote-quote">The best books are the stories that stay with us
+                                    long after we read, the ones we re-read again and again and the ones we pass on to
+                                    friends.</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide banner-large__item">
+                        <a href="" class="banner-large__link">
+                            <img src="../assets/images/landing page/banner/large-banner-4.jpg" alt=""
+                                class="banner-large__img">
+                            <div class="banner-large__quote quote-right">
+                                <p class="banner-large__quote-source">The Fate of The World Rests on a Blade’s Edge</p>
+                                <h2 class="banner-large__quote-quote">Fighting beside her band of unlikely companions,
+                                    Corayne is learning to embrace her ancient lineage and wield her father’s powerful
+                                    sword.</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide banner-large__item">
+                        <a href="" class="banner-large__link">
+                            <img src="../assets/images/landing page/banner/large-banner-5.jpg" alt=""
+                                class="banner-large__img">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- <div class="swiper category">
+                <div class="swiper-wrapper category__list">
+                    <div class="swiper-slide category__item">
+                        <a href="" class="category__link">
+                            <img src="../assets/images/landing page/banner/large-banner-1.jpg" alt=""
+                                class="category__img">
+                            <div class="category__quote">
+                                <h2 class="category__quote-quote">"Fans or readers, or even critics, who really want
+                                    to learn more about my life should read my lyrics..."</h2>
+                                <p class="category__quote-source">&mdash; Paul McCartney</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide category__item">
+                        <a href="" class="category__link">
+                            <img src="../assets/images/landing page/banner/large-banner-2.jpg" alt=""
+                                class="category__img">
+                            <div class="category__quote">
+                                <h2 class="category__quote-quote">"Quiet isn’t always peace, and the norms and
+                                    notions of what just is, isn’t always justice."</h2>
+                                <p class="category__quote-source">&mdash; Amanda Gorman, <i>The Hill
+                                        We&nbsp;Climb</i></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide category__item">
+                        <a href="" class="category__link">
+                            <img src="../assets/images/landing page/banner/large-banner-3.jpg" alt=""
+                                class="category__img">
+                            <div class="category__quote quote-right">
+                                <p class="category__quote-source">The Best Books of 2021 </p>
+                                <h2 class="category__quote-quote">The best books are the stories that stay with us
+                                    long after we read, the ones we re-read again and again and the ones we pass on to
+                                    friends.</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide category__item">
+                        <a href="" class="category__link">
+                            <img src="../assets/images/landing page/banner/large-banner-4.jpg" alt=""
+                                class="category__img">
+                            <div class="category__quote quote-right">
+                                <p class="category__quote-source">The Fate of The World Rests on a Blade’s Edge</p>
+                                <h2 class="category__quote-quote">Fighting beside her band of unlikely companions,
+                                    Corayne is learning to embrace her ancient lineage and wield her father’s powerful
+                                    sword.</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide category__item">
+                        <a href="" class="category__link">
+                            <img src="../assets/images/landing page/banner/large-banner-5.jpg" alt=""
+                                class="category__img">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div> -->
+            
+        </div>
+
+        <footer include-html="../templates/footer.html"></footer>
+
+        <!-- Modal layout -->
+        <!-- <div class="modal">
+            <div class="modal__overlay"></div>
+            
+            <div class="modal__body"> -->
+        <!-- Register form -->
+        <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng ký</h3>
+                            <span class="auth-form__switch-btn">Đăng nhập</span>
+                        </div>
+
+                        <div class="auth-form__form">
+                            <div class="auth-forn__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                            </div>
+                            <div class="auth-forn__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            </div>
+                            <div class="auth-forn__group">
+                                <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                            </div>
+                        </div>
+
+                        <div class="auth-form__aside">
+                            <p class="auth-form__policy-text">
+                                Bằng việc đăng ký, bạn đã đồng ý với F8 - Shopee về 
+                                <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a>
+                                &
+                                <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                            </p>
+                        </div>
+
+                        <div class="auth-form__control">
+                            <button class="btn btn--normal auth-form__control-back">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fab fa-facebook-square"></i>                            
+                            <span class="auth-form__socials-label">Kết nối với Facebook</span>
+                        </a>
+                        <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                            <img class="auth-form__socials-icon-img" src="../assets/img/google_50px.png" alt="">
+                            <span class="auth-form__socials-label">Kết nối với Google</span>
+                        </a>
+                    </div>
+                </div> -->
+
+        <!-- Login form -->
+        <!-- <div class="auth-form"> 
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng nhập</h3>
+                            <span class="auth-form__switch-btn">Đăng ký</span>
+                        </div>
+
+                        <div class="auth-form__form">
+                            <div class="auth-forn__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                            </div>
+                            <div class="auth-forn__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            </div>
+                        </div>
+
+                        <div class="auth-form__aside">
+                            <div class="auth-form__help">
+                                <a href="" class="auth-form__help-link auth-form__help-link--forgot">Quên mật khẩu</a>
+                                <span class="auth-form__help-separate"></span>
+                                <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                            </div>
+                        </div>
+
+                        <div class="auth-form__control">
+                            <button class="btn btn--normal auth-form__control-back">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fab fa-facebook-square"></i>                            
+                            <span class="auth-form__socials-label">Đăng nhập với Facebook</span>
+                        </a>
+                        <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                            <img class="auth-form__socials-icon-img" src="../assets/img/google_50px.png" alt="">
+                            <span class="auth-form__socials-label">Đăng nhập với Google</span>
+                        </a>
+                    </div>
+                </div> -->
+    </div>
+    </div>
+    </div>
+
+    <script src="../js/include-html.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- JS for PAGE -->
+    <script src="../js/home.js"></script>
+</body>
+
+</html>
