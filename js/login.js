@@ -14,11 +14,3 @@ function showPassword() {
 		state = true;
 	}
 }
-
-let login_form = document.getElementById("login");
-let sign_up_form = document.getElementById("sign_up");
-
-function showForm(page1, page2) {
-	page1.style.display = "none";
-	page2.style.display = "block";
-}
