@@ -508,7 +508,10 @@
 	text-decoration: underline;
 }
 
-.product__list-item__sum {
+.product__list-item__sum-description {
+	font-size: 1.2rem;
+	color: var(--primary-color);
+	text-decoration: none;
 	margin-bottom: 6px;
 	/* Xử lý ngắt 2 dòng rồi 3 chấm */
 	overflow: hidden;
@@ -518,13 +521,7 @@
 	-webkit-line-clamp: 1;
 }
 
-.product__list-item__sum a {
-	font-size: 1.2rem;
-	color: var(--primary-color);
-	text-decoration: none;
-}
-
-.product__list-item__sum a:hover {
+.product__list-item__sum-description:hover {
 	text-decoration: underline;
 }
 
