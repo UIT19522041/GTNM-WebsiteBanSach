@@ -70,6 +70,15 @@ html {
 
 /* Animation */
 
+@keyframes scroll-up {
+    from {
+        transform: scaleY(0);
+    }
+    to {
+        transform: scaleY(1);
+    }
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;

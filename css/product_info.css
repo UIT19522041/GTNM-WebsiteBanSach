@@ -761,7 +761,7 @@
                             transition: height 2s;
                             display: block;
                             transform-origin: calc(100% - 30px) bottom;
-                            animation: scroll-up .25s ease-in;
+                            animation: scroll-up .3s ease-in;
                         }
                         
                         .product__info__more-series__list-item__quick-add {
