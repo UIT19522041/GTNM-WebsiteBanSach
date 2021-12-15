@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bookstore</title>
+
+    <!-- ICON FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <!-- FONT FAMILY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;1,400&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- CSS RESET -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!-- CSS BASE-->
+    <link rel="stylesheet" href="../css/base.css">
+
+    <!-- CSS GRID SYSTEM -->
+    <link rel="stylesheet" href="../css/grid.css">
+
+    <!-- CSS for PAGE -->
+    <link rel="stylesheet" href="../css/template.css">
+
+    <!-- Copy link style của page -->
+
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <!-- product-list -->
+    <link rel="stylesheet" href="../css/product_list.css">
+
+</head>
+
+<body>
+    <!-- Block Element Modifier -->
+    <div class="app">
+
+        <div include-html="../templates/header.html"></div>
+
+        <div class="app__container">
+            <div class="grid wide">
+
+                <!-- Viết code -->
+                <div class="row sm-gutter app__content">
+                    <div class="col l-2 m-0 c-0">
+
+                        <!-- product list -->
+                        <nav class="sidebar">
+                            <div class="sidebar__heading">
+                                <span class="sidebar__heading-name">
+                                    Selected
+                               </span>
+
+                                <span class="sidebar__heading-button">
+                                     Clear
+                                </span>
+                            </div>
+
+                            <div class="sidebar__search">
+                                <div class="sidebar__search-tag">
+                                    <span class="sidebar__search-name">
+                                        my hero academia
+                                    </span>
+
+                                    <div class="sidebar_search-button">
+                                        <i class="sidebar_search-button-close fas fa-times"></i>
+                                    </div>
+                                </div>
+
+                                <div class="sidebar__search-tag">
+                                    <span class="sidebar__search-name">
+                                       Show Out Of Stock Items
+                                    </span>
+
+                                    <div class="sidebar_search-button">
+                                        <i class="sidebar_search-button-close fas fa-times"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="sidebar__heading">
+                                <span class="sidebar__heading-name">
+                                    Refine Your Search
+                               </span>
+
+                                <span class="sidebar__heading-button">
+                                    Reset
+                               </span>
+                            </div>
+
+                            <div class="sidebar__filter">
+                                <div class="sidebar__filter-check">
+                                    <i class="fas fa-check"></i>
+                                </div>
+
+                                <div class="sidebar__filter-name">
+                                    Show Out Of Stock Items
+                                </div>
+                            </div>
+
+
+                            <div class="sidebar__group">
+                                <div class="sidebar__group-header">
+                                    Product Types
+                                </div>
+
+                                <div class="sidebar__group-list">
+                                    <div class="sidebar__checkbox-item">
+                                        <input type="checkbox" id="ckb1" name="ckb1" value="none">
+                                    </div>
+
+                                    <div class="sidebar__name-item">
+                                        Comic & Graphic Novels
+                                    </div>
+
+                                    <div class="sidebar__scope-open">(</div>
+                                    <div class="sidebar__number-item">
+                                        68
+                                    </div>
+
+                                    <div class="sidebar__scope-close">)</div>
+                                </div>
+
+                                <div class="sidebar__group-list">
+                                    <div class="sidebar__checkbox-item">
+                                        <input type="checkbox" id="ckb1" name="ckb1" value="none">
+                                    </div>
+
+                                    <div class="sidebar__name-item">
+                                        Science Fiction & Fantasy
+                                    </div>
+
+                                    <div class="sidebar__scope-open">(</div>
+                                    <div class="sidebar__number-item">
+                                        68
+                                    </div>
+
+                                    <div class="sidebar__scope-close">)</div>
+                                </div>
+
+                                <div class="sidebar__group-list">
+                                    <div class="sidebar__checkbox-item">
+                                        <input type="checkbox" id="ckb1" name="ckb1" value="none">
+                                    </div>
+
+                                    <div class="sidebar__name-item">
+                                        Science Fiction
+                                    </div>
+
+                                    <div class="sidebar__scope-open">(</div>
+                                    <div class="sidebar__number-item">
+                                        68
+                                    </div>
+
+                                    <div class="sidebar__scope-close">)</div>
+                                </div>
+
+                                <div class="sidebar__more-option">
+                                    <span class="sidebar__sum-option">
+                                       + 1 more
+                                   </span>
+
+                                    <div class="sidebar__expand-option">
+                                        <i class="fas fa-sort-down"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </nav>
+
+                    </div>
+
+
+
+                    <div class="col l-10 m-12 c-12 nav-tuan">
+                        <!-- Home filter -->
+                        <div class="home-filter hide-on-mobile-tablet box-white">
+                            <div class="result__container">
+
+                                <div class="result__shown">
+                                    <span class="resul__shown-total">
+                                        1 - 20 of 105 results for
+                                    </span>
+
+                                    <span class="result__shown-name-product">
+                                        my hero academia
+                                    </span>
+                                </div>
+
+                                <div class="result__filter">
+                                    <div class="result__filter-show">
+                                        <span class="result__filter-show-label">
+                                         Show:
+                                        </span>
+
+                                        <span class="result__filter-show-number">
+                                            20
+                                        </span>
+
+                                        <div class="result__filter-show-icon">
+                                            <i class="fas fa-sort-down"></i>
+                                        </div>
+
+
+                                        <ul class="result__filter-list">
+                                            <li class="result-input__item">
+                                                <a href="" class="result-input__link">20</a>
+                                            </li>
+                                            <li class="result-input__item">
+                                                <a href="" class="result-input__link">40</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="result__filter-select">
+                                        <span class="result__filter-select-label">
+                                                Sort by:
+                                            </span>
+
+                                        <span class="result__filter-select-name">
+                                                Top Matches
+                                        </span>
+
+                                        <div class="result__filter-select-icon">
+                                            <i class="fas fa-sort-down"></i>
+                                        </div>
+
+                                        <ul class="result__select-list">
+                                            <li class="result-input__item">
+                                                <a href="" class="result-input__link">Top Matches</a>
+                                            </li>
+                                            <li class="result-input__item">
+                                                <a href="" class="result-input__link">Best Sellers</a>
+                                            </li>
+
+                                            <li class="result-input__item">
+                                                <a href="" class="result-input__link">Top Matches</a>
+                                            </li>
+                                            <li class="result-input__item">
+                                                <a href="" class="result-input__link">Best Sellers</a>
+                                            </li>
+
+                                            <li class="result-input__item">
+                                                <a href="" class="result-input__link">Top Matches</a>
+                                            </li>
+                                            <li class="result-input__item">
+                                                <a href="" class="result-input__link">Best Sellers</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="home-filter hide-on-mobile-tablet box-white">
+                            <div class="result__related">
+                                <div class="result__related-title">
+                                    Related Series:
+                                </div>
+
+                                <a href="#" class="result__related-name">
+                                    My Herro Academia Series
+                                </a>
+                            </div>
+
+                        </div>
+
+                        <div class="home-filter hide-on-mobile-tablet box-white">
+                            <div class="result__local">
+                                <div class="result__local-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+
+                                <div class="result__local-description">
+                                    Get it today with Buy Online, Pick up in Store
+                                </div>
+
+                                <a href="#" class="result__local-link">
+                                    Find My Store
+                                </a>
+                            </div>
+
+                        </div>
+
+                        <div class="home-filter hide-on-mobile-tablet box-white">
+                            <div class="browse__search">
+
+                                <a href="#" class="browse__search-link">
+                                    Visit Our Manga Store | Shop Now ›
+                               </a>
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- Nav category mobile & tablet -->
+                        <!-- <nav class="mobile-category">
+                            <ul class="mobile-category__list">
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiện ích vô cùng tuyệt v</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiện ích</a>
+                                </li>
+                            </ul>
+                        </nav> -->
+
+                        <!-- Home products -->
+                        <div class="home-product">
+                            <div class="row sm-gutter">
+                                <!-- Product item -->
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="product__list-item">
+                                        <a href="" class="product__list-item-link">
+                                            <div class="product__list-item__img" style="background-image: url(https://prodimage.images-bn.com/pimages/9781421585109_p0_v2_s192x300.jpg);">
+                                                <div class="product__list-item__quick-add">
+
+                                                    <div class="product__list-item__quick-add-box">
+                                                        <span class="product__list-item__quick-add-label">
+                                                           QUICK ADD
+                                                        </span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="product__list-item__info">
+
+                                                <h4 class="product__list-item__name">My Hero Academia, vip pro</h4>
+
+                                                <div class="product__list-item__description">
+
+                                                    <span class="product__list-item__description-label">by</span>
+                                                    <a href="#" class="product__list-item__description-name">
+                                                        Kohei Horikoshi 
+                                                    </a>
+                                                </div>
+
+                                                <div class="product__list-item__sum">
+                                                    <a href="#" class="product__list-item__sum-description">
+                                                        3 in Series
+                                                    </a>
+                                                </div>
+
+                                                <div class="product__list-item__cost">
+
+                                                    <div class="product__list-item__cost-about">
+                                                        <span class="product__list-item__cost-label">
+                                                            Paperback
+                                                        </span>
+
+                                                        <span class="product__list-item__cost-price">
+                                                            $9.99
+                                                        </span>
+                                                    </div>
+
+
+                                                    <span class="product__list-item__discount">
+                                                        $6.99
+                                                    </span>
+                                                </div>
+
+
+
+                                            </div>
+
+                                            <!-- Yêu thích -->
+                                            <div class="product__list-item__favorite">
+                                                <span>BESTSELLER</span>
+                                            </div>
+                                            <!-- Giảm giá -->
+                                            <div class="product__list-item__heart">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="product__list-item">
+                                        <a href="" class="product__list-item-link">
+                                            <div class="product__list-item__img" style="background-image: url(https://prodimage.images-bn.com/pimages/9781421585109_p0_v2_s192x300.jpg);">
+                                                <div class="product__list-item__quick-add">
+
+                                                    <div class="product__list-item__quick-add-box">
+                                                        <span class="product__list-item__quick-add-label">
+                                                           QUICK ADD
+                                                        </span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="product__list-item__info">
+
+                                                <h4 class="product__list-item__name">My Hero Academia, vip pro</h4>
+
+                                                <div class="product__list-item__description">
+
+                                                    <span class="product__list-item__description-label">by</span>
+                                                    <a href="#" class="product__list-item__description-name">
+                                                        Kohei Horikoshi 
+                                                    </a>
+                                                </div>
+
+                                                <div class="product__list-item__sum">
+                                                    <a href="#" class="product__list-item__sum-description">
+                                                        3 in Series
+                                                    </a>
+                                                </div>
+
+                                                <div class="product__list-item__cost">
+
+                                                    <div class="product__list-item__cost-about">
+                                                        <span class="product__list-item__cost-label">
+                                                            Paperback
+                                                        </span>
+
+                                                        <span class="product__list-item__cost-price">
+                                                            $9.99
+                                                        </span>
+                                                    </div>
+
+
+                                                    <span class="product__list-item__discount">
+                                                        $6.99
+                                                    </span>
+                                                </div>
+
+
+
+                                            </div>
+
+                                            <!-- Yêu thích -->
+                                            <div class="product__list-item__favorite">
+                                                <span>BESTSELLER</span>
+                                            </div>
+                                            <!-- Giảm giá -->
+                                            <div class="product__list-item__heart">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="product__list-item">
+                                        <a href="" class="product__list-item-link">
+                                            <div class="product__list-item__img" style="background-image: url(https://prodimage.images-bn.com/pimages/9781421585109_p0_v2_s192x300.jpg);">
+                                                <div class="product__list-item__quick-add">
+
+                                                    <div class="product__list-item__quick-add-box">
+                                                        <span class="product__list-item__quick-add-label">
+                                                           QUICK ADD
+                                                        </span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="product__list-item__info">
+
+                                                <h4 class="product__list-item__name">My Hero Academia, vip pro</h4>
+
+                                                <div class="product__list-item__description">
+
+                                                    <span class="product__list-item__description-label">by</span>
+                                                    <a href="#" class="product__list-item__description-name">
+                                                        Kohei Horikoshi 
+                                                    </a>
+                                                </div>
+
+                                                <div class="product__list-item__sum">
+                                                    <a href="#" class="product__list-item__sum-description">
+                                                        3 in Series
+                                                    </a>
+                                                </div>
+
+                                                <div class="product__list-item__cost">
+
+                                                    <div class="product__list-item__cost-about">
+                                                        <span class="product__list-item__cost-label">
+                                                            Paperback
+                                                        </span>
+
+                                                        <span class="product__list-item__cost-price">
+                                                            $9.99
+                                                        </span>
+                                                    </div>
+
+
+                                                    <span class="product__list-item__discount">
+                                                        $6.99
+                                                    </span>
+                                                </div>
+
+
+
+                                            </div>
+
+                                            <!-- Yêu thích -->
+                                            <div class="product__list-item__favorite">
+                                                <span>BESTSELLER</span>
+                                            </div>
+                                            <!-- Giảm giá -->
+                                            <div class="product__list-item__heart">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="product__list-item">
+                                        <a href="" class="product__list-item-link">
+                                            <div class="product__list-item__img" style="background-image: url(https://prodimage.images-bn.com/pimages/9781421585109_p0_v2_s192x300.jpg);">
+                                                <div class="product__list-item__quick-add">
+
+                                                    <div class="product__list-item__quick-add-box">
+                                                        <span class="product__list-item__quick-add-label">
+                                                           QUICK ADD
+                                                        </span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="product__list-item__info">
+
+                                                <h4 class="product__list-item__name">My Hero Academia, vip pro</h4>
+
+                                                <div class="product__list-item__description">
+
+                                                    <span class="product__list-item__description-label">by</span>
+                                                    <a href="#" class="product__list-item__description-name">
+                                                        Kohei Horikoshi 
+                                                    </a>
+                                                </div>
+
+                                                <div class="product__list-item__sum">
+                                                    <a href="#" class="product__list-item__sum-description">
+                                                        3 in Series
+                                                    </a>
+                                                </div>
+
+                                                <div class="product__list-item__cost">
+
+                                                    <div class="product__list-item__cost-about">
+                                                        <span class="product__list-item__cost-label">
+                                                            Paperback
+                                                        </span>
+
+                                                        <span class="product__list-item__cost-price">
+                                                            $9.99
+                                                        </span>
+                                                    </div>
+
+
+                                                    <span class="product__list-item__discount">
+                                                        $6.99
+                                                    </span>
+                                                </div>
+
+
+
+                                            </div>
+
+                                            <!-- Yêu thích -->
+                                            <div class="product__list-item__favorite">
+                                                <span>BESTSELLER</span>
+                                            </div>
+                                            <!-- Giảm giá -->
+                                            <div class="product__list-item__heart">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="product__list-item">
+                                        <a href="" class="product__list-item-link">
+                                            <div class="product__list-item__img" style="background-image: url(https://prodimage.images-bn.com/pimages/9781421585109_p0_v2_s192x300.jpg);">
+                                                <div class="product__list-item__quick-add">
+
+                                                    <div class="product__list-item__quick-add-box">
+                                                        <span class="product__list-item__quick-add-label">
+                                                           QUICK ADD
+                                                        </span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="product__list-item__info">
+
+                                                <h4 class="product__list-item__name">My Hero Academia, vip pro</h4>
+
+                                                <div class="product__list-item__description">
+
+                                                    <span class="product__list-item__description-label">by</span>
+                                                    <a href="#" class="product__list-item__description-name">
+                                                        Kohei Horikoshi 
+                                                    </a>
+                                                </div>
+
+                                                <div class="product__list-item__sum">
+                                                    <a href="#" class="product__list-item__sum-description">
+                                                        3 in Series
+                                                    </a>
+                                                </div>
+
+                                                <div class="product__list-item__cost">
+
+                                                    <div class="product__list-item__cost-about">
+                                                        <span class="product__list-item__cost-label">
+                                                            Paperback
+                                                        </span>
+
+                                                        <span class="product__list-item__cost-price">
+                                                            $9.99
+                                                        </span>
+                                                    </div>
+
+
+                                                    <span class="product__list-item__discount">
+                                                        $6.99
+                                                    </span>
+                                                </div>
+
+
+
+                                            </div>
+
+                                            <!-- Yêu thích -->
+                                            <div class="product__list-item__favorite">
+                                                <span>BESTSELLER</span>
+                                            </div>
+                                            <!-- Giảm giá -->
+                                            <div class="product__list-item__heart">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="product__list-item">
+                                        <a href="" class="product__list-item-link">
+                                            <div class="product__list-item__img" style="background-image: url(https://prodimage.images-bn.com/pimages/9781421585109_p0_v2_s192x300.jpg);">
+                                                <div class="product__list-item__quick-add">
+
+                                                    <div class="product__list-item__quick-add-box">
+                                                        <span class="product__list-item__quick-add-label">
+                                                           QUICK ADD
+                                                        </span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="product__list-item__info">
+
+                                                <h4 class="product__list-item__name">My Hero Academia, vip pro</h4>
+
+                                                <div class="product__list-item__description">
+
+                                                    <span class="product__list-item__description-label">by</span>
+                                                    <a href="#" class="product__list-item__description-name">
+                                                        Kohei Horikoshi 
+                                                    </a>
+                                                </div>
+
+                                                <div class="product__list-item__sum">
+                                                    <a href="#" class="product__list-item__sum-description">
+                                                        3 in Series
+                                                    </a>
+                                                </div>
+
+                                                <div class="product__list-item__cost">
+
+                                                    <div class="product__list-item__cost-about">
+                                                        <span class="product__list-item__cost-label">
+                                                            Paperback
+                                                        </span>
+
+                                                        <span class="product__list-item__cost-price">
+                                                            $9.99
+                                                        </span>
+                                                    </div>
+
+
+                                                    <span class="product__list-item__discount">
+                                                        $6.99
+                                                    </span>
+                                                </div>
+
+
+
+                                            </div>
+
+                                            <!-- Yêu thích -->
+                                            <div class="product__list-item__favorite">
+                                                <span>BESTSELLER</span>
+                                            </div>
+                                            <!-- Giảm giá -->
+                                            <div class="product__list-item__heart">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="product__list-item">
+                                        <a href="" class="product__list-item-link">
+                                            <div class="product__list-item__img" style="background-image: url(https://prodimage.images-bn.com/pimages/9781421585109_p0_v2_s192x300.jpg);">
+                                                <div class="product__list-item__quick-add">
+
+                                                    <div class="product__list-item__quick-add-box">
+                                                        <span class="product__list-item__quick-add-label">
+                                                           QUICK ADD
+                                                        </span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="product__list-item__info">
+
+                                                <h4 class="product__list-item__name">My Hero Academia, vip pro</h4>
+
+                                                <div class="product__list-item__description">
+
+                                                    <span class="product__list-item__description-label">by</span>
+                                                    <a href="#" class="product__list-item__description-name">
+                                                        Kohei Horikoshi 
+                                                    </a>
+                                                </div>
+
+                                                <div class="product__list-item__sum">
+                                                    <a href="#" class="product__list-item__sum-description">
+                                                        3 in Series
+                                                    </a>
+                                                </div>
+
+                                                <div class="product__list-item__cost">
+
+                                                    <div class="product__list-item__cost-about">
+                                                        <span class="product__list-item__cost-label">
+                                                            Paperback
+                                                        </span>
+
+                                                        <span class="product__list-item__cost-price">
+                                                            $9.99
+                                                        </span>
+                                                    </div>
+
+
+                                                    <span class="product__list-item__discount">
+                                                        $6.99
+                                                    </span>
+                                                </div>
+
+
+
+                                            </div>
+
+                                            <!-- Yêu thích -->
+                                            <div class="product__list-item__favorite">
+                                                <span>BESTSELLER</span>
+                                            </div>
+                                            <!-- Giảm giá -->
+                                            <div class="product__list-item__heart">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="product__list-item">
+                                        <a href="" class="product__list-item-link">
+                                            <div class="product__list-item__img" style="background-image: url(https://prodimage.images-bn.com/pimages/9781421585109_p0_v2_s192x300.jpg);">
+                                                <div class="product__list-item__quick-add">
+
+                                                    <div class="product__list-item__quick-add-box">
+                                                        <span class="product__list-item__quick-add-label">
+                                                           QUICK ADD
+                                                        </span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="product__list-item__info">
+
+                                                <h4 class="product__list-item__name">My Hero Academia, vip pro</h4>
+
+                                                <div class="product__list-item__description">
+
+                                                    <span class="product__list-item__description-label">by</span>
+                                                    <a href="#" class="product__list-item__description-name">
+                                                        Kohei Horikoshi 
+                                                    </a>
+                                                </div>
+
+                                                <div class="product__list-item__sum">
+                                                    <a href="#" class="product__list-item__sum-description">
+                                                        3 in Series
+                                                    </a>
+                                                </div>
+
+                                                <div class="product__list-item__cost">
+
+                                                    <div class="product__list-item__cost-about">
+                                                        <span class="product__list-item__cost-label">
+                                                            Paperback
+                                                        </span>
+
+                                                        <span class="product__list-item__cost-price">
+                                                            $9.99
+                                                        </span>
+                                                    </div>
+
+
+                                                    <span class="product__list-item__discount">
+                                                        $6.99
+                                                    </span>
+                                                </div>
+
+
+
+                                            </div>
+
+                                            <!-- Yêu thích -->
+                                            <div class="product__list-item__favorite">
+                                                <span>BESTSELLER</span>
+                                            </div>
+                                            <!-- Giảm giá -->
+                                            <div class="product__list-item__heart">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="product__list-item">
+                                        <a href="" class="product__list-item-link">
+                                            <div class="product__list-item__img" style="background-image: url(https://prodimage.images-bn.com/pimages/9781421585109_p0_v2_s192x300.jpg);">
+                                                <div class="product__list-item__quick-add">
+
+                                                    <div class="product__list-item__quick-add-box">
+                                                        <span class="product__list-item__quick-add-label">
+                                                           QUICK ADD
+                                                        </span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="product__list-item__info">
+
+                                                <h4 class="product__list-item__name">My Hero Academia, vip pro</h4>
+
+                                                <div class="product__list-item__description">
+
+                                                    <span class="product__list-item__description-label">by</span>
+                                                    <a href="#" class="product__list-item__description-name">
+                                                        Kohei Horikoshi 
+                                                    </a>
+                                                </div>
+
+                                                <div class="product__list-item__sum">
+                                                    <a href="#" class="product__list-item__sum-description">
+                                                        3 in Series
+                                                    </a>
+                                                </div>
+
+                                                <div class="product__list-item__cost">
+
+                                                    <div class="product__list-item__cost-about">
+                                                        <span class="product__list-item__cost-label">
+                                                            Paperback
+                                                        </span>
+
+                                                        <span class="product__list-item__cost-price">
+                                                            $9.99
+                                                        </span>
+                                                    </div>
+
+
+                                                    <span class="product__list-item__discount">
+                                                        $6.99
+                                                    </span>
+                                                </div>
+
+
+
+                                            </div>
+
+                                            <!-- Yêu thích -->
+                                            <div class="product__list-item__favorite">
+                                                <span>BESTSELLER</span>
+                                            </div>
+                                            <!-- Giảm giá -->
+                                            <div class="product__list-item__heart">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <!-- Pagination Product List-->
+                        <ul class="pagination mt-pagination__product-item">
+                            <li class="pagination__product-item">
+                                <a href="" class="pagination__product-item-link">
+                                    <i class="pagination__product-item-link-icon pagination__product-item-link-icon--end fas fa-angle-left"></i>
+                                </a>
+                            </li>
+
+                            <li class="pagination__product-item">
+                                <a href="" class="pagination__product-item-link pagination__product-item-link--current">1</a>
+                            </li>
+                            <li class="pagination__product-item">
+                                <a href="" class="pagination__product-item-link">2</a>
+                            </li>
+                            <li class="pagination__product-item">
+                                <a href="" class="pagination__product-item-link">3</a>
+                            </li>
+                            <li class="pagination__product-item">
+                                <a href="" class="pagination__product-item-link">4</a>
+                            </li>
+                            <li class="pagination__product-item">
+                                <a href="" class="pagination__product-item-link">5</a>
+                            </li>
+                            <li class="pagination__product-item">
+                                <a href="" class="pagination__product-item-link">...</a>
+                            </li>
+                            <li class="pagination__product-item">
+                                <a href="" class="pagination__product-item-link">14</a>
+                            </li>
+
+                            <li class="pagination__product-item">
+                                <a href="" class="pagination__product-item-link">
+                                    <i class="pagination__product-item-link-icon fas fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div include-html="../templates/footer.html"></div>
+
+        <!-- Modal layout -->
+        <!-- <div class="modal">
+            <div class="modal__overlay"></div>
+            
+            <div class="modal__body"> -->
+        <!-- Register form -->
+        <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng ký</h3>
+                            <span class="auth-form__switch-btn">Đăng nhập</span>
+                        </div>
+
+                        <div class="auth-form__form">
+                            <div class="auth-forn__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                            </div>
+                            <div class="auth-forn__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            </div>
+                            <div class="auth-forn__group">
+                                <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                            </div>
+                        </div>
+
+                        <div class="auth-form__aside">
+                            <p class="auth-form__policy-text">
+                                Bằng việc đăng ký, bạn đã đồng ý với F8 - Shopee về 
+                                <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a>
+                                &
+                                <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                            </p>
+                        </div>
+
+                        <div class="auth-form__control">
+                            <button class="btn btn--normal auth-form__control-back">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fab fa-facebook-square"></i>                            
+                            <span class="auth-form__socials-label">Kết nối với Facebook</span>
+                        </a>
+                        <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                            <img class="auth-form__socials-icon-img" src="./assets/img/google_50px.png" alt="">
+                            <span class="auth-form__socials-label">Kết nối với Google</span>
+                        </a>
+                    </div>
+                </div> -->
+
+        <!-- Login form -->
+        <!-- <div class="auth-form"> 
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng nhập</h3>
+                            <span class="auth-form__switch-btn">Đăng ký</span>
+                        </div>
+
+                        <div class="auth-form__form">
+                            <div class="auth-forn__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                            </div>
+                            <div class="auth-forn__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            </div>
+                        </div>
+
+                        <div class="auth-form__aside">
+                            <div class="auth-form__help">
+                                <a href="" class="auth-form__help-link auth-form__help-link--forgot">Quên mật khẩu</a>
+                                <span class="auth-form__help-separate"></span>
+                                <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                            </div>
+                        </div>
+
+                        <div class="auth-form__control">
+                            <button class="btn btn--normal auth-form__control-back">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fab fa-facebook-square"></i>                            
+                            <span class="auth-form__socials-label">Đăng nhập với Facebook</span>
+                        </a>
+                        <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                            <img class="auth-form__socials-icon-img" src="./assets/img/google_50px.png" alt="">
+                            <span class="auth-form__socials-label">Đăng nhập với Google</span>
+                        </a>
+                    </div>
+                </div> -->
+    </div>
+    </div>
+    </div>
+
+    <script src="../js/include-html.js"></script>
+</body>
+
+</html>
