@@ -1,0 +1,2589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bookstore</title>
+
+    <!-- ICON FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <!-- FONT FAMILY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;1,400&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- CSS RESET -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!-- CSS BASE-->
+    <link rel="stylesheet" href="../css/base.css">
+
+    <!-- CSS GRID SYSTEM -->
+    <link rel="stylesheet" href="../css/grid.css">
+
+    <!-- CSS for PAGE -->
+    <link rel="stylesheet" href="../css/template.css">
+
+    <!-- Copy link style của page -->
+
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <!-- tuan -->
+    <link rel="stylesheet" href="../css/product_info.css">
+    <!--  -->
+
+</head>
+
+<body>
+    <!-- Block Element Modifier -->
+    <div class="app">
+
+        <div include-html="../templates/header.html"></div>
+
+        <div class="app__container">
+            <div class="grid wide">
+
+                <!-- Viết code -->
+
+                <div class="row sm-gutter app__content">
+
+                    <div class="col l-12 m-12 c-12 ">
+                        <!-- product__header -->
+                        <div class="product__info-header">
+                            <div class="navigation">
+                                <div class="row sm-gutter">
+                                    <div class="col l-12 m-12 c-12">
+                                        <div class="navigation__header">
+                                            <a href="#" class="navigation__header-home">
+                                                Home
+                                            </a>
+                                            <span class="navigation__header-icon">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </span>
+
+                                            <a href="#" class="navigation__header-current">
+                                                Books
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- product detail full screen-->
+                            <div class="product__detail hide-on-tablet hide-on-mobile">
+                                <div class="product__detail-container">
+                                    <div class="row sm-gutter">
+
+                                        <div class="col l-2 m-2 c-2">
+                                            <div class="spaceing">
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col l-5 m-10 c-6">
+
+                                            <div class="product__info-item__main">
+                                                <a href="" class="product__info-item__main-link">
+                                                    <div class="product__info-item__main__img" style="background-image: url(https://prodimage.images-bn.com/pimages/9781421585109_p0_v2_s192x300.jpg);">
+
+                                                    </div>
+
+                                                    <div class="product__info-item__main__favorite">
+                                                        <span>BESTSELLER</span>
+                                                    </div>
+
+                                                    <div class="product__info-item__footer">
+                                                        <div class="product__info-item__footer-icon">
+                                                            <i class="product__info-item__footer-icon__heart fab fa-gratipay"></i>
+                                                        </div>
+
+                                                        <a href="#" class="product__info-item__footer-label">
+                                                            Add to Wishlist
+                                                        </a>
+                                                    </div>
+
+                                                </a>
+                                            </div>
+                                            <!--  -->
+                                        </div>
+
+                                        <div class="col l-5 m-5 c-6 ">
+                                            <div class="product__info-container">
+                                                <div class="product__info-header">
+                                                    My Hero Academia, Vol.2 kasd
+                                                </div>
+
+                                                <div class="product__info-actor">
+                                                    <div class="product__info-actor-by">
+                                                        by
+                                                    </div>
+
+                                                    <a href="#" class="product__info-actor-name">
+                                                        Kohei Horikoashi
+                                                    </a>
+                                                </div>
+
+                                                <div class="product__info-favorite">
+
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+
+                                                    <div class="product__info-favorite-star">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product__info-favorite-star">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+
+
+
+                                                    <div class="product__info-favorite-number">
+                                                        3.0(3)
+
+
+                                                        <!-- list vote -->
+
+                                                        <div class="product__info-vote-container">
+                                                            <ul class="product__info-vote__list">
+                                                                <li class="product__info-vote__list-item">
+
+                                                                    <div class="product__info-vote__number">
+                                                                        5
+                                                                    </div>
+
+                                                                    <div class="product__info-vote__icon">
+                                                                        <i class="fas fa-star"></i>
+                                                                    </div>
+                                                                    <div class="product__info-vote__rating">
+                                                                        <div class="product__info-vote__rating-percent-five">
+
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="product__info-vote__sum-comment">
+                                                                        5
+                                                                    </div>
+                                                                </li>
+
+                                                                <li class="product__info-vote__list-item">
+
+                                                                    <div class="product__info-vote__number">
+                                                                        4
+                                                                    </div>
+
+                                                                    <div class="product__info-vote__icon">
+                                                                        <i class="fas fa-star"></i>
+                                                                    </div>
+                                                                    <div class="product__info-vote__rating ">
+                                                                        <div class="product__info-vote__rating-percent-four">
+
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="product__info-vote__sum-comment">
+                                                                        2
+                                                                    </div>
+                                                                </li>
+
+                                                                <li class="product__info-vote__list-item">
+
+                                                                    <div class="product__info-vote__number">
+                                                                        3
+                                                                    </div>
+
+                                                                    <div class="product__info-vote__icon">
+                                                                        <i class="fas fa-star"></i>
+                                                                    </div>
+                                                                    <div class="product__info-vote__rating">
+                                                                        <div class="product__info-vote__rating-percent-three">
+
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="product__info-vote__sum-comment">
+                                                                        2
+                                                                    </div>
+                                                                </li>
+
+                                                                <li class="product__info-vote__list-item">
+
+                                                                    <div class="product__info-vote__number">
+                                                                        2
+                                                                    </div>
+
+                                                                    <div class="product__info-vote__icon">
+                                                                        <i class="fas fa-star"></i>
+                                                                    </div>
+                                                                    <div class="product__info-vote__rating">
+                                                                        <div class="product__info-vote__rating-percent-two">
+
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="product__info-vote__sum-comment">
+                                                                        0
+                                                                    </div>
+                                                                </li>
+
+                                                                <li class="product__info-vote__list-item">
+
+                                                                    <div class="product__info-vote__number">
+                                                                        1
+                                                                    </div>
+
+                                                                    <div class="product__info-vote__icon">
+                                                                        <i class="fas fa-star"></i>
+                                                                    </div>
+                                                                    <div class="product__info-vote__rating">
+                                                                        <div class="product__info-vote__rating-percent-one">
+
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="product__info-vote__sum-comment">
+                                                                        0
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+
+                                                            <a href="#" class="product__info-vote__button">
+                                                                <span class="product__info-vote__button-label">
+                                                                    Read 5 Reviews
+                                                                </span>
+                                                            </a>
+
+                                                        </div>
+                                                        <!-- --------------- -->
+
+                                                    </div>
+
+
+
+                                                </div>
+
+
+                                                <div class="product__info-material">
+                                                    <span class="product__info-material-label">
+                                                        Paperback
+                                                    </span>
+
+
+                                                </div>
+
+                                                <div class="product__info-current-cost">
+                                                    <div class="product__info-current-cost-type">
+                                                        $
+                                                    </div>
+
+                                                    <div class="product__info-current-cost-value">
+                                                        9.99
+                                                    </div>
+                                                </div>
+
+                                                <div class="product__info-group__box-cost">
+                                                    <div class="product__info__box-current product__info__box-current--choose">
+                                                        <div class="product__info__box-current-name">
+                                                            Paperback
+                                                        </div>
+
+                                                        <div class="product__info__box-current-cost">
+                                                            <div class="product__info__box-current-cost-type">
+                                                                $
+                                                            </div>
+
+                                                            <div class="product__info__box-current-cost-value">
+                                                                9.99
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+
+                                                    <div class="product__info__box-current">
+                                                        <div class="product__info__box-current-name">
+                                                            Paperback
+                                                        </div>
+
+                                                        <div class="product__info__box-current-cost">
+                                                            <div class="product__info__box-current-cost-type">
+                                                                $
+                                                            </div>
+
+                                                            <div class="product__info__box-current-cost-value">
+                                                                9.99
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                                <a href="#" class="product__info-link-view">
+                                                    View All Available Formats & Editions
+                                                </a>
+
+                                                <form action="#" class="radio-container">
+
+                                                    <div class="radio-container__option">
+                                                        <input class="radio__button" type="radio" id="option_1" name="radio__option" value="Ship This Item — Qualifies for Free Shipping ">
+                                                        <span class="radio__label radio__label--choose">Ship This Item —</span>
+                                                        <span class="radio__label-link">Qualifies for Free Shipping</span>
+                                                        <i class="radio__icon fas fa-info-circle"></i>
+                                                    </div>
+
+
+                                                    <div class="radio-container__option">
+                                                        <input class="radio__button" type="radio" id="option_2" name="radio__option" value="Buy Online, Pick up in Store">
+                                                        <span class="radio__label">Buy Online, Pick up in Store</span>
+                                                        <i class="radio__icon fas fa-info-circle"></i>
+                                                    </div>
+                                                </form>
+
+                                                <a href="#" class="product__info-link-check">
+                                                    Check Availability at Nearby Stores
+                                                </a>
+
+                                                <div class="product__info__purchase-container">
+                                                    <a href="#" class="product__info__purchase-add">
+                                                        ADD TO CART
+                                                    </a>
+
+                                                    <a onclick="login_function()" id="product__info__login" href="#" class="product__info__purchase-instantly">
+                                                        Sign in to Purchase Instantly
+                                                   
+                                                    </a>
+                                                    <script>
+                                                        function login_function() {
+                                                            document.getElementById("product__info__login").addEventListener("click", function() {
+                                                                var modal = document.getElementById("modal__info");
+                                                                modal.style.display = "block";
+                                                                // alert("Hello World!");
+                                                            });
+                                                        }
+                                                    </script>
+
+
+                                                </div>
+
+                                                <div class="product__info__shipping-message">
+                                                    <div class="product__info__shipping-icon">
+                                                        <i class="fas fa-truck"></i>
+                                                    </div>
+
+                                                    <div class="product__info__shipping__label-container">
+                                                        <span class="product__info__shipping__label-notice">
+                                                            Choose Expedited Shipping at checkout for delivery by
+                                                        </span>
+                                                        <span class="product__info__shipping__label-date">
+                                                            Friday, November 26
+                                                        </span>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <!-- product detail on tablet & mobile -->
+                            <div class="product__detail__mini">
+
+                                <div class="col c-9">
+                                    <!-- header -->
+                                    <div class="product__info-container product__info-container--mini">
+                                        <div class="product__info-header">
+                                            My Hero Academia, Vol.2 kasd
+                                        </div>
+
+                                        <div class="product__info-actor">
+                                            <div class="product__info-actor-by">
+                                                by
+                                            </div>
+
+                                            <a href="#" class="product__info-actor-name">
+                                                Kohei Horikoashi
+                                            </a>
+                                        </div>
+
+                                        <div class="product__info-favorite product__info-favorite--mini">
+
+                                            <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                <i class="fas fa-star"></i>
+                                            </div>
+
+                                            <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                <i class="fas fa-star"></i>
+                                            </div>
+
+                                            <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                <i class="fas fa-star"></i>
+                                            </div>
+
+                                            <div class="product__info-favorite-star">
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product__info-favorite-star">
+                                                <i class="fas fa-star"></i>
+                                            </div>
+
+
+
+                                            <div class="product__info-favorite-number">
+                                                3.0(3)
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <!-- tấm hình -->
+                                    <div class="product__info-item__main">
+                                        <a href="" class="product__info-item__main-link">
+                                            <div class="product__info-item__main__img" style="background-image: url(https://prodimage.images-bn.com/pimages/9781421585109_p0_v2_s192x300.jpg);">
+
+                                            </div>
+
+                                            <div class="product__info-item__main__favorite">
+                                                <span>BESTSELLER</span>
+                                            </div>
+
+                                            <div class="product__info-item__footer">
+                                                <div class="product__info-item__footer-icon">
+                                                    <i class="product__info-item__footer-icon__heart fab fa-gratipay"></i>
+                                                </div>
+
+                                                <a href="#" class="product__info-item__footer-label">
+                                                    Add to Wishlist
+                                                </a>
+                                            </div>
+
+                                            <!-- <div class="product__list-item__favorite">
+                                                <span>BESTSELLER</span>
+                                            </div> -->
+
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- footer -->
+                                <div class="col c-12 ">
+
+                                    <div class="product__info-container-ipad">
+
+                                        <div class="product__info-ipad__header">
+                                            <div class="product__info-ipad__header-name">
+                                                Paperback
+                                            </div>
+                                            <div class="product__info-ipad__header-box">
+                                                <div class="product__info-ipad__box-label">
+
+                                                    <div class="product__info-ipad__box-label-format">
+                                                        Format:
+                                                    </div>
+                                                    <div class="product__info-ipad__box-label-type">
+                                                        Paperback: $9.99
+                                                    </div>
+
+                                                </div>
+                                                <div class="product__info-ipad__header-box-icon">
+                                                    <i class="fas fa-angle-down"></i>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <form action="#" class="radio-container">
+
+                                            <div class="radio-container__option">
+                                                <input class="radio__button" type="radio" id="option_1" name="radio__option" value="Ship This Item — Qualifies for Free Shipping ">
+                                                <span class="radio__label radio__label--choose">Ship This Item —</span>
+                                                <span class="radio__label-link">Qualifies for Free Shipping</span>
+                                                <i class="radio__icon fas fa-info-circle"></i>
+                                            </div>
+
+
+                                            <div class="radio-container__option">
+                                                <input class="radio__button" type="radio" id="option_2" name="radio__option" value="Buy Online, Pick up in Store">
+                                                <span class="radio__label">Buy Online, Pick up in Store</span>
+                                                <i class="radio__icon fas fa-info-circle"></i>
+                                            </div>
+                                        </form>
+
+                                        <a href="#" class="product__info-link-check">
+                                            Check Availability at Nearby Stores
+                                        </a>
+
+                                        <div class="product__info__purchase-container product__info__purchase-container--mini">
+                                            <div class="product__info__purchase-add product__info__purchase-add--mini">
+                                                ADD TO CART
+                                            </div>
+                                            <div class="product__info__purchase-add-space">
+
+                                            </div>
+                                            <div onclick="login_function_mini()" id="product__info__login-mini" class="product__info__purchase-instantly product__info__purchase-instantly--mini">
+                                                Sign in to Purchase Instantly
+
+                                                <script>
+                                                    function login_function_mini() {
+                                                        document.getElementById("product__info__login-mini").addEventListener("click", function() {
+                                                            var modal = document.getElementById("modal__info");
+                                                            modal.style.display = "block";
+                                                            // alert("Hello World!");
+                                                        });
+                                                    }
+                                                </script>
+                                            </div>
+                                        </div>
+
+                                        <div class="product__info__shipping-message">
+                                            <div class="product__info__shipping-icon">
+                                                <i class="fas fa-truck"></i>
+                                            </div>
+
+                                            <div class="product__info__shipping__label-container">
+                                                <span class="product__info__shipping__label-notice">
+                                                    Choose Expedited Shipping at checkout for delivery by
+                                                </span>
+                                                <span class="product__info__shipping__label-date">
+                                                    Friday, November 26
+                                                </span>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <!-- overview -->
+                        <div class="product__content-container">
+                            <div class="row sm-gutter">
+                                <div class="col c-12">
+                                    <span class="product__content-header">
+                                       Overview
+                                   </span>
+
+                                    <div class="col c-12">
+                                        <div class="product__content-box">
+                                            <div class="product__content-box-about">
+                                                <span class="product__content-title">
+                                                    Midoriya inherits the superpower of the world’s greatest hero, 
+                                                    but greatness won’t come easy.
+                                                </span>
+
+                                                <span class="product__content-review">
+                                                    What would the world be like if 80 percent of the population 
+                                                    manifested superpowers called “Quirks”? Heroes and villains would 
+                                                    be battling it out everywhere! Being a hero would mean learning to 
+                                                    use your power, but where would you go to study? The Hero Academy 
+                                                    of course! But what would you do if you were one of the 20 percent
+                                                    who were born Quirkless?
+                                                </span>
+                                            </div>
+
+                                            <div class="product__content-box-space">
+
+                                            </div>
+
+                                            <div class="product__content-box-about">
+                                                <span class="product__content-review">
+                                                    Getting into U.A. High School was difficult enough, but it was only 
+                                                    the beginning of Midoriya’s long road toward becoming a superhero. 
+                                                    The new students all have amazing powers, and although Midoriya has 
+                                                    inherited All Might’s abilities, he can barely control them. What’s
+                                                     more, the first-year students are told they will have to compete just 
+                                                     to avoid being expelled!
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- More In This Series -->
+
+                        <!-- full screen -->
+                        <div class="product__info__more-series">
+
+                            <!-- doing -->
+                            <div class="product__info__title-center">
+                                <div class="product__info__title-center-line hide-on-tablet hide-on-mobile">
+
+                                    <div class="product__info__title-center-content">
+                                        <span class="product__info__title-center-content-label">
+                                           More in This Series
+                                        </span>
+                                        <a href="#" class="product__info__more-series__link">
+                                            See All
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- tablet & moblie -->
+
+                                <div class="product__info__title-center__mini">
+                                    <div class="product__info__title-center-content__mini">
+                                        <span class="product__info__title-center-content-label__mini">
+                                            More in This Series
+                                        </span>
+                                        <a href="#" class="product__info__more-series__link__mini">
+                                            See All
+                                         </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <!-- list hình -->
+
+                            <div class="prodcut__info__more-series__list">
+                                <div class="col l-3 m-4 c-6">
+                                    <div class="product__info__more-series__list-item">
+                                        <a href="" class="product__info__more-series__list-item-link">
+                                            <div class="product__info__more-series__list-item__img" style="background-image: url(https://prodimage.images-bn.com/pimages/9781421585109_p0_v2_s192x300.jpg);">
+                                                <div class="product__info__more-series__list-item__quick-add">
+
+                                                    <div class="product__info__more-series__list-item__quick-add-box">
+                                                        <span class="product__info__more-series__list-item__quick-add-label">
+                                                           QUICK ADD
+                                                        </span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="product__info__more-series__list-item__info">
+
+                                                <a href="#" class="product__info__more-series__list-item__name">
+                                                    My Hero Academia, vip pro  Vol. 1
+                                                </a>
+                                                <span class="product__info__more-series__list-item__version">
+                                                   BOOK 1
+                                                </span>
+                                            </div>
+
+                                            <!-- heart -->
+                                            <div class="product__list-item__heart">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col l-3 m-4 c-6">
+                                    <div class="product__info__more-series__list-item">
+                                        <a href="" class="product__info__more-series__list-item-link">
+                                            <div class="product__info__more-series__list-item__img" style="background-image: url(https://prodimage.images-bn.com/pimages/9781421585109_p0_v2_s192x300.jpg);">
+                                                <div class="product__info__more-series__list-item__quick-add">
+
+                                                    <div class="product__info__more-series__list-item__quick-add-box">
+                                                        <span class="product__info__more-series__list-item__quick-add-label">
+                                                           QUICK ADD
+                                                        </span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="product__info__more-series__list-item__info">
+
+                                                <a href="#" class="product__info__more-series__list-item__name">
+                                                    My Hero Academia, vip pro  Vol. 1
+                                                </a>
+                                                <span class="product__info__more-series__list-item__version">
+                                                   BOOK 1
+                                                </span>
+                                            </div>
+
+                                            <!-- heart -->
+                                            <div class="product__list-item__heart">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col l-3 m-4 c-6">
+                                    <div class="product__info__more-series__list-item">
+                                        <a href="" class="product__info__more-series__list-item-link">
+                                            <div class="product__info__more-series__list-item__img" style="background-image: url(https://prodimage.images-bn.com/pimages/9781421585109_p0_v2_s192x300.jpg);">
+                                                <div class="product__info__more-series__list-item__quick-add">
+
+                                                    <div class="product__info__more-series__list-item__quick-add-box">
+                                                        <span class="product__info__more-series__list-item__quick-add-label">
+                                                           QUICK ADD
+                                                        </span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="product__info__more-series__list-item__info">
+
+                                                <a href="#" class="product__info__more-series__list-item__name">
+                                                    My Hero Academia, vip pro  Vol. 1
+                                                </a>
+                                                <span class="product__info__more-series__list-item__version">
+                                                   BOOK 1
+                                                </span>
+                                            </div>
+
+                                            <!-- heart -->
+                                            <div class="product__list-item__heart">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col l-3 m-4 c-6">
+                                    <div class="product__info__more-series__list-item">
+                                        <a href="" class="product__info__more-series__list-item-link">
+                                            <div class="product__info__more-series__list-item__img" style="background-image: url(https://prodimage.images-bn.com/pimages/9781421585109_p0_v2_s192x300.jpg);">
+                                                <div class="product__info__more-series__list-item__quick-add">
+
+                                                    <div class="product__info__more-series__list-item__quick-add-box">
+                                                        <span class="product__info__more-series__list-item__quick-add-label">
+                                                           QUICK ADD
+                                                        </span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="product__info__more-series__list-item__info">
+
+                                                <a href="#" class="product__info__more-series__list-item__name">
+                                                    My Hero Academia, vip pro  Vol. 1
+                                                </a>
+                                                <span class="product__info__more-series__list-item__version">
+                                                   BOOK 1
+                                                </span>
+                                            </div>
+
+                                            <!-- heart -->
+                                            <div class="product__list-item__heart">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col l-3 m-4 c-6">
+                                    <div class="product__info__more-series__list-item">
+                                        <a href="" class="product__info__more-series__list-item-link">
+                                            <div class="product__info__more-series__list-item__img" style="background-image: url(https://prodimage.images-bn.com/pimages/9781421585109_p0_v2_s192x300.jpg);">
+                                                <div class="product__info__more-series__list-item__quick-add">
+
+                                                    <div class="product__info__more-series__list-item__quick-add-box">
+                                                        <span class="product__info__more-series__list-item__quick-add-label">
+                                                           QUICK ADD
+                                                        </span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="product__info__more-series__list-item__info">
+
+                                                <a href="#" class="product__info__more-series__list-item__name">
+                                                    My Hero Academia, vip pro  Vol. 1
+                                                </a>
+                                                <span class="product__info__more-series__list-item__version">
+                                                   BOOK 1
+                                                </span>
+                                            </div>
+
+                                            <!-- heart -->
+                                            <div class="product__list-item__heart">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col l-3 m-4 c-6">
+                                    <div class="product__info__more-series__list-item">
+                                        <a href="" class="product__info__more-series__list-item-link">
+                                            <div class="product__info__more-series__list-item__img" style="background-image: url(https://prodimage.images-bn.com/pimages/9781421585109_p0_v2_s192x300.jpg);">
+                                                <div class="product__info__more-series__list-item__quick-add">
+
+                                                    <div class="product__info__more-series__list-item__quick-add-box">
+                                                        <span class="product__info__more-series__list-item__quick-add-label">
+                                                           QUICK ADD
+                                                        </span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="product__info__more-series__list-item__info">
+
+                                                <a href="#" class="product__info__more-series__list-item__name">
+                                                    My Hero Academia, vip pro  Vol. 1
+                                                </a>
+                                                <span class="product__info__more-series__list-item__version">
+                                                   BOOK 1
+                                                </span>
+                                            </div>
+
+                                            <!-- heart -->
+                                            <div class="product__list-item__heart">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+
+                        <!-- You May Also Like -->
+
+                        <div class="product__info__more-series">
+
+                            <div class="product__info__title-center">
+                                <div class="product__info__title-center-line hide-on-tablet hide-on-mobile">
+
+                                    <div class="product__info__title-center-content">
+                                        <span class="product__info__title-center-content-label">
+                                            You May Also Like
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <!-- tablet & moblie -->
+
+                                <div class="product__info__title-center__mini">
+                                    <div class="product__info__title-center-content__mini">
+                                        <span class="product__info__title-center-content-label__mini">
+                                            You May Also Like
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <!-- list hình -->
+
+                            <div class="prodcut__info__more-series__list">
+                                <div class="col l-3 m-4 c-6">
+                                    <div class="product__info__more-series__list-item">
+                                        <a href="" class="product__info__more-series__list-item-link">
+                                            <div class="product__info__more-series__list-item__img" style="background-image: url(https://prodimage.images-bn.com/pimages/9781421585109_p0_v2_s192x300.jpg);">
+                                                <div class="product__info__more-series__list-item__quick-add">
+
+                                                    <div class="product__info__more-series__list-item__quick-add-box">
+                                                        <span class="product__info__more-series__list-item__quick-add-label">
+                                                           QUICK ADD
+                                                        </span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="product__info__more-series__list-item__info">
+
+                                                <a href="#" class="product__info__more-series__list-item__name">
+                                                    My Hero Academia, vip pro  Vol. 1
+                                                </a>
+                                                <div class="product__info__also-like__list-item__actor">
+                                                    <div class="product__info__also-like__list-item__actor-by">
+                                                        by
+                                                    </div>
+                                                    <div class="product__info__also-like__list-item__actor-name">
+                                                        Kohei Horikoshi
+                                                    </div>
+                                                    <!-- doing -->
+                                                </div>
+                                                <div class="product__info__also-like__list-item-favorite">
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- heart -->
+                                            <div class="product__list-item__heart">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col l-3 m-4 c-6">
+                                    <div class="product__info__more-series__list-item">
+                                        <a href="" class="product__info__more-series__list-item-link">
+                                            <div class="product__info__more-series__list-item__img" style="background-image: url(https://prodimage.images-bn.com/pimages/9781421585109_p0_v2_s192x300.jpg);">
+                                                <div class="product__info__more-series__list-item__quick-add">
+
+                                                    <div class="product__info__more-series__list-item__quick-add-box">
+                                                        <span class="product__info__more-series__list-item__quick-add-label">
+                                                           QUICK ADD
+                                                        </span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="product__info__more-series__list-item__info">
+
+                                                <a href="#" class="product__info__more-series__list-item__name">
+                                                    My Hero Academia, vip pro  Vol. 1
+                                                </a>
+                                                <div class="product__info__also-like__list-item__actor">
+                                                    <div class="product__info__also-like__list-item__actor-by">
+                                                        by
+                                                    </div>
+                                                    <div class="product__info__also-like__list-item__actor-name">
+                                                        Kohei Horikoshi
+                                                    </div>
+                                                    <!-- doing -->
+                                                </div>
+                                                <div class="product__info__also-like__list-item-favorite">
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- heart -->
+                                            <div class="product__list-item__heart">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col l-3 m-4 c-6">
+                                    <div class="product__info__more-series__list-item">
+                                        <a href="" class="product__info__more-series__list-item-link">
+                                            <div class="product__info__more-series__list-item__img" style="background-image: url(https://prodimage.images-bn.com/pimages/9781421585109_p0_v2_s192x300.jpg);">
+                                                <div class="product__info__more-series__list-item__quick-add">
+
+                                                    <div class="product__info__more-series__list-item__quick-add-box">
+                                                        <span class="product__info__more-series__list-item__quick-add-label">
+                                                           QUICK ADD
+                                                        </span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="product__info__more-series__list-item__info">
+
+                                                <a href="#" class="product__info__more-series__list-item__name">
+                                                    My Hero Academia, vip pro  Vol. 1
+                                                </a>
+                                                <div class="product__info__also-like__list-item__actor">
+                                                    <div class="product__info__also-like__list-item__actor-by">
+                                                        by
+                                                    </div>
+                                                    <div class="product__info__also-like__list-item__actor-name">
+                                                        Kohei Horikoshi
+                                                    </div>
+                                                    <!-- doing -->
+                                                </div>
+                                                <div class="product__info__also-like__list-item-favorite">
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- heart -->
+                                            <div class="product__list-item__heart">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col l-3 m-4 c-6">
+                                    <div class="product__info__more-series__list-item">
+                                        <a href="" class="product__info__more-series__list-item-link">
+                                            <div class="product__info__more-series__list-item__img" style="background-image: url(https://prodimage.images-bn.com/pimages/9781421585109_p0_v2_s192x300.jpg);">
+                                                <div class="product__info__more-series__list-item__quick-add">
+
+                                                    <div class="product__info__more-series__list-item__quick-add-box">
+                                                        <span class="product__info__more-series__list-item__quick-add-label">
+                                                           QUICK ADD
+                                                        </span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="product__info__more-series__list-item__info">
+
+                                                <a href="#" class="product__info__more-series__list-item__name">
+                                                    My Hero Academia, vip pro  Vol. 1
+                                                </a>
+                                                <div class="product__info__also-like__list-item__actor">
+                                                    <div class="product__info__also-like__list-item__actor-by">
+                                                        by
+                                                    </div>
+                                                    <div class="product__info__also-like__list-item__actor-name">
+                                                        Kohei Horikoshi
+                                                    </div>
+                                                    <!-- doing -->
+                                                </div>
+                                                <div class="product__info__also-like__list-item-favorite">
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- heart -->
+                                            <div class="product__list-item__heart">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col l-3 m-4 c-6">
+                                    <div class="product__info__more-series__list-item">
+                                        <a href="" class="product__info__more-series__list-item-link">
+                                            <div class="product__info__more-series__list-item__img" style="background-image: url(https://prodimage.images-bn.com/pimages/9781421585109_p0_v2_s192x300.jpg);">
+                                                <div class="product__info__more-series__list-item__quick-add">
+
+                                                    <div class="product__info__more-series__list-item__quick-add-box">
+                                                        <span class="product__info__more-series__list-item__quick-add-label">
+                                                           QUICK ADD
+                                                        </span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="product__info__more-series__list-item__info">
+
+                                                <a href="#" class="product__info__more-series__list-item__name">
+                                                    My Hero Academia, vip pro  Vol. 1
+                                                </a>
+                                                <div class="product__info__also-like__list-item__actor">
+                                                    <div class="product__info__also-like__list-item__actor-by">
+                                                        by
+                                                    </div>
+                                                    <div class="product__info__also-like__list-item__actor-name">
+                                                        Kohei Horikoshi
+                                                    </div>
+                                                    <!-- doing -->
+                                                </div>
+                                                <div class="product__info__also-like__list-item-favorite">
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- heart -->
+                                            <div class="product__list-item__heart">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col l-3 m-4 c-6">
+                                    <div class="product__info__more-series__list-item">
+                                        <a href="" class="product__info__more-series__list-item-link">
+                                            <div class="product__info__more-series__list-item__img" style="background-image: url(https://prodimage.images-bn.com/pimages/9781421585109_p0_v2_s192x300.jpg);">
+                                                <div class="product__info__more-series__list-item__quick-add">
+
+                                                    <div class="product__info__more-series__list-item__quick-add-box">
+                                                        <span class="product__info__more-series__list-item__quick-add-label">
+                                                           QUICK ADD
+                                                        </span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="product__info__more-series__list-item__info">
+
+                                                <a href="#" class="product__info__more-series__list-item__name">
+                                                    My Hero Academia, vip pro  Vol. 1
+                                                </a>
+                                                <div class="product__info__also-like__list-item__actor">
+                                                    <div class="product__info__also-like__list-item__actor-by">
+                                                        by
+                                                    </div>
+                                                    <div class="product__info__also-like__list-item__actor-name">
+                                                        Kohei Horikoshi
+                                                    </div>
+                                                    <!-- doing -->
+                                                </div>
+                                                <div class="product__info__also-like__list-item-favorite">
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- heart -->
+                                            <div class="product__list-item__heart">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+                        <!-- product info tablist-->
+
+                        <div class="product__info__tab-list hiden-product-info">
+                            <div class="col c-12">
+                                <div class="product__info__tab-list-container">
+
+                                    <div id="header-line" class="product__info__tab-list-header">
+                                        <span onclick=" display_product()" id="header-product" class="product__info__tab-list__product-detail">
+                                            <script>
+                                                function display_product() {
+                                                    document.getElementById("tab-product").style.display ="block";
+                                                    document.getElementById("header-author").style.border = "none"
+                                                    document.getElementById("tab-author").style.display ="none";
+
+                                                    document.getElementById("header-product").style.border = "1px solid var(--border-line)";
+                                                    document.getElementById("header-product").style.textDecoration = "underline"
+                                                    document.getElementById("header-product").style.color = "var(--text-color)"
+                                                    document.getElementById("header-author").style.color = "var(--primary-color)"
+                                                    document.getElementById("header-author").style.textDecoration = "none"
+
+                                                    document.getElementById("header__hiden-product-line").style.display = "block"
+                                                    document.getElementById("header__hiden-author-line").style.display = "none"
+                                                }
+                                            </script>
+                                            Product Details
+                                            <div id="header__hiden-product-line" class="product__info__tab-list__product-detai__hident-line">
+
+                                            </div>
+                                        </span>
+
+                                        <span onclick="display_author()" id="header-author" class="product__info__tab-list__about-author">
+                                            
+
+                                            <script>
+                                                function display_author() {
+                                                    document.getElementById("tab-author").style.display ="block";
+                                                    document.getElementById("tab-product").style.display ="none";
+                                                    document.getElementById("header-product").style.border = "none"
+                                                    
+                                                    document.getElementById("header-author").style.border = "1px solid var(--border-line)"
+                                                    document.getElementById("header-author").style.textDecoration = "underline"
+                                                    document.getElementById("header-author").style.color = "var(--text-color)"
+                                                    document.getElementById("header-product").style.color = "var(--primary-color)"
+                                                    document.getElementById("header-product").style.textDecoration = "none"
+
+                                                    document.getElementById("header__hiden-product-line").style.display = "none"
+                                                    document.getElementById("header__hiden-author-line").style.display = "block"
+                                                }
+                                            </script>
+
+                                            About the Author
+                                            <div id = "header__hiden-author-line" class="product__info__tab-list__about-author__hident-line">
+
+                                            </div>
+                                        </span>
+                                    </div>
+
+                                    <div id="tab-product" class="product__info__tab-list__info-product">
+                                        <div class="product__info__tab-list__info-product-header">
+                                            <span class="product__info__tab-list__info-product-header-name">
+                                                Product Details
+                                            </span>
+                                        </div>
+                                        <div class="product__info__tab-list__info-product-description">
+                                            <table class="product__inffo__tab-list__info-product-description__table">
+                                                <tbody>
+                                                    <tr>
+                                                        <th>ISBN-13:</th>
+                                                        <td>9781421582702</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <th>Publisher:</th>
+                                                        <td>VIZ Media LLC</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <th>Publication date:</th>
+                                                        <td>11/03/2015</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <th>Series:</th>
+                                                        <td>My Hero Academia Series</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <th>Pages:</th>
+                                                        <td>208</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Sales rank:</th>
+                                                        <td>193</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Product dimensions:</th>
+                                                        <td>7.40(w) x 5.00(h) x 0.70(d)</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <th>Lexile:</th>
+                                                        <td>GN360L</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <th>Age Range:</th>
+                                                        <td>14 - 17 Years</td>
+                                                    </tr>
+                                                </tbody>
+
+                                            </table>
+                                        </div>
+
+
+
+                                    </div>
+
+                                    <div id="tab-author" class="product__info__tab-list__info-author">
+                                        <div class="product__info__tab-list__info-author-header">
+                                            <span class="product__info__tab-list__info-author-header-name">
+                                                About the Author
+                                            </span>
+                                            <span class="product__info__tab-list__info-author-description">
+                                                Kohei Horikoshi was born in Aichi, Japan, in 1986. He received a Tezuka
+                                                 Award Honorable Mention in 2006, and after publishing several short stories
+                                                  in Akamaru Jump, his first serialized work in Weekly Shonen Jump was 
+                                                  Oumagadoki Zoo in 2010. My Hero Academia is his third series in Weekly Shonen
+                                                   Jump.
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- product info tablist mini-->
+
+                        <div class="product__info__tab-list-mini">
+
+                            <div class="product__info__tab-list-mini-container">
+                                <div class="product__info__tab-list-mini-product">
+                                    <div class="product__info__tab-list-mini-product__header">
+                                        <span class="product__info__tab-list-mini-product__label">
+                                            Product Details
+                                        </span>
+
+                                        <div class="product__info__tab-list-mini-product__icon">
+                                            <div id="product__detail-mini-button-down" onclick="display_product_detail_mini()" class="product__info__tab-list-mini-product__icon-down">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+
+                                            <div id="product__detail-mini-button-up" onclick="hiden_product_detail_mini()" class="product__info__tab-list-mini-product__icon-up">
+                                                <i class="fas fa-chevron-up"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="product__detail-mini-tab" class="product__info__tab-list-mini-product__body">
+                                        <div class="product__info__tab-list__info-product-description">
+                                            <table class="product__inffo__tab-list__info-product-description__table">
+                                                <tbody>
+                                                    <tr>
+                                                        <th>ISBN-13:</th>
+                                                        <td>9781421582702</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <th>Publisher:</th>
+                                                        <td>VIZ Media LLC</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <th>Publication date:</th>
+                                                        <td>11/03/2015</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <th>Series:</th>
+                                                        <td>My Hero Academia Series</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <th>Pages:</th>
+                                                        <td>208</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Sales rank:</th>
+                                                        <td>193</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Product dimensions:</th>
+                                                        <td>7.40(w) x 5.00(h) x 0.70(d)</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <th>Lexile:</th>
+                                                        <td>GN360L</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <th>Age Range:</th>
+                                                        <td>14 - 17 Years</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+
+                                    <script>
+                                        function display_product_detail_mini() {
+                                            document.getElementById("product__detail-mini-tab").style.display = "block";
+                                            document.getElementById("product__detail-mini-button-down").style.display = "none";
+                                            document.getElementById("product__detail-mini-button-up").style.display = "block";
+                                        }
+
+                                        function hiden_product_detail_mini() {
+                                            document.getElementById("product__detail-mini-tab").style.display = "none";
+                                            document.getElementById("product__detail-mini-button-down").style.display = "block";
+                                            document.getElementById("product__detail-mini-button-up").style.display = "none";
+                                        }
+                                    </script>
+
+                                </div>
+                                <div class="product__info__tab-list-mini-author">
+
+                                    <div class="product__info__tab-list-mini-author__header">
+                                        <span class="product__info__tab-list-mini-author__label">
+                                                About the Author
+                                            </span>
+                                        <div class="product__info__tab-list-mini-author__icon">
+                                            <div id="author-mini-button-down" onclick="display_author_mini()" class="product__info__tab-list-mini-author__icon-down">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+
+                                            <div id="author-mini-button-up" onclick="hiden_author_mini()" class="product__info__tab-list-mini-author__icon-up">
+                                                <i class="fas fa-chevron-up"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div id="author-mini-tab" class="product__info__tab-list-mini-author__body">
+                                        <span class="product__info__tab-list__info-author-description">
+                                            Kohei Horikoshi was born in Aichi, Japan, in 1986. He received a Tezuka
+                                             Award Honorable Mention in 2006, and after publishing several short stories
+                                              in Akamaru Jump, his first serialized work in Weekly Shonen Jump was 
+                                              Oumagadoki Zoo in 2010. My Hero Academia is his third series in Weekly Shonen
+                                               Jump.
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <script>
+                                    function display_author_mini() {
+                                        document.getElementById("author-mini-tab").style.display = "block";
+                                        document.getElementById("author-mini-button-down").style.display = "none";
+                                        document.getElementById("author-mini-button-up").style.display = "block";
+                                    }
+
+                                    function hiden_author_mini() {
+                                        document.getElementById("author-mini-tab").style.display = "none";
+                                        document.getElementById("author-mini-button-down").style.display = "block";
+                                        document.getElementById("author-mini-button-up").style.display = "none";
+                                    }
+                                </script>
+                            </div>
+
+                        </div>
+
+
+                        <!-- Customer Reviews -->
+                        <div class="product__customer__review-container">
+                            <div class="row sm-gutter">
+                                <div class="col c-12">
+
+                                    <div class="product__info__title-center">
+                                        <div class="product__info__title-center-line hide-on-tablet hide-on-mobile">
+
+                                            <div class="product__info__title-center-content">
+                                                <span class="product__info__title-center-content-label">
+                                                    Customer Reviews
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                        <!-- tablet & moblie -->
+
+                                        <div class="product__info__title-center__mini">
+                                            <div class="product__info__title-center-content__mini">
+                                                <span class="product__info__title-center-content-label__mini">
+                                                    Customer Reviews
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="product__customer__review__search-container">
+                                        <div class="c-12">
+                                            <div class="product__customer__review-sumary-recommend">
+                                                <div class="product__customer__review-sumary-recommend-favorite">
+                                                    <div class="product__customer__review-sumary-recommend-favorite__star">
+                                                        <div class="product__customer__review-sumary-recommend-favorite__star-icon">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                        <div class="product__customer__review-sumary-recommend-favorite__star-icon">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                        <div class="product__customer__review-sumary-recommend-favorite__star-icon">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                        <div class="product__customer__review-sumary-recommend-favorite__star-icon">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                        <div class="product__customer__review-sumary-recommend-favorite__star-icon">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__customer__review-sumary-recommend-favorite-num">
+                                                        5.0
+                                                    </div>
+                                                    <div class="product__customer__review-sumary-recommend-favorite-label">
+                                                        5 review
+                                                    </div>
+                                                </div>
+                                                <span class="product__customer__review-sumary-recommend-label">
+                                                    2 out of 2 (100%) reviewers recommend this product
+                                                </span>
+                                            </div>
+
+                                            <div class="product__customer__review-search hiden-product-info">
+                                                <form class="product__customer__review-search-form" action="#">
+                                                    <input class="product__customer__review-search-input" type="text" placeholder="Search topics and reviews" name="search-bar" size="50" style="padding: 6px 4px; font-size: 1.2rem;" />
+
+                                                    <button style="padding: 6px 12px; font-size: 1.2rem;" class="product__customer__review-search-btn"><i class="fas fa-search"></i></button>
+                                                </form>
+                                            </div>
+
+                                            <div class="product__customer__review-search-mini">
+                                                <form class="product__customer__review-search-form" action="#">
+                                                    <i class="fas fa-search"></i>
+                                                    <input class="product__customer__review-search-input" type="text" placeholder="Search topics and reviews" name="search-bar" size="35" style="padding: 6px 4px; font-size: 1.2rem; border: none; outline: none;" />
+                                                </form>
+                                            </div>
+
+
+                                            <div class="product__customer__review-comment-container">
+                                                <div class="product__customer__review-comment__item">
+                                                    .
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- reviews -->
+                                    <div class="product__customer__review-vote">
+                                        <div class="product__customer__review-header">
+                                            <span class="product__customer__review-header-label">
+                                                Reviews
+                                            </span>
+                                            <button class="product__customer__review-header-btn">Write A Review</button>
+                                        </div>
+
+                                        <div class="product__customer__review-favorite">
+                                            <div class="product__customer__review-favorite__rating-snapshot">
+                                                <div class="product__customer__review-favorite__rating-snapshot-header">
+                                                    <span class="product__customer__review-favorite__rating-snapshot-name">
+                                                        Rating Snapshot
+                                                    </span>
+                                                    <span class="product__customer__review-favorite__rating-description">
+                                                        Select a row below to filter reviews.
+                                                    </span>
+                                                </div>
+                                                <div class="product__customer__review-favorite__rating-snapshot-vote">
+                                                    <ul class="product__customer__review-favorite__rating-snapshot-vote__list">
+                                                        <li class="product__info-vote__list-item">
+
+                                                            <div class="product__info-vote__number">
+                                                                5
+                                                            </div>
+
+                                                            <div class="product__info-vote__icon">
+                                                                <i class="fas fa-star"></i>
+                                                            </div>
+                                                            <div class="product__info-vote__rating">
+                                                                <div class="product__info-vote__rating-percent-five">
+
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="product__info-vote__sum-comment">
+                                                                5
+                                                            </div>
+                                                        </li>
+
+                                                        <li class="product__info-vote__list-item">
+
+                                                            <div class="product__info-vote__number">
+                                                                4
+                                                            </div>
+
+                                                            <div class="product__info-vote__icon">
+                                                                <i class="fas fa-star"></i>
+                                                            </div>
+                                                            <div class="product__info-vote__rating ">
+                                                                <div class="product__info-vote__rating-percent-four">
+
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="product__info-vote__sum-comment">
+                                                                2
+                                                            </div>
+                                                        </li>
+
+                                                        <li class="product__info-vote__list-item">
+
+                                                            <div class="product__info-vote__number">
+                                                                3
+                                                            </div>
+
+                                                            <div class="product__info-vote__icon">
+                                                                <i class="fas fa-star"></i>
+                                                            </div>
+                                                            <div class="product__info-vote__rating">
+                                                                <div class="product__info-vote__rating-percent-three">
+
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="product__info-vote__sum-comment">
+                                                                2
+                                                            </div>
+                                                        </li>
+
+                                                        <li class="product__info-vote__list-item">
+
+                                                            <div class="product__info-vote__number">
+                                                                2
+                                                            </div>
+
+                                                            <div class="product__info-vote__icon">
+                                                                <i class="fas fa-star"></i>
+                                                            </div>
+                                                            <div class="product__info-vote__rating">
+                                                                <div class="product__info-vote__rating-percent-two">
+
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="product__info-vote__sum-comment">
+                                                                0
+                                                            </div>
+                                                        </li>
+
+                                                        <li class="product__info-vote__list-item">
+
+                                                            <div class="product__info-vote__number">
+                                                                1
+                                                            </div>
+
+                                                            <div class="product__info-vote__icon">
+                                                                <i class="fas fa-star"></i>
+                                                            </div>
+                                                            <div class="product__info-vote__rating">
+                                                                <div class="product__info-vote__rating-percent-one">
+
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="product__info-vote__sum-comment">
+                                                                0
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="product__customer__review-favorite__rating-average">
+                                                <span class="product__customer__review-favorite__rating-average-name">
+                                                    Average Customer Ratings
+                                                </span>
+                                                <div class="product__customer__review-favorite__rating-average-overall">
+                                                    <span class="product__customer__review-favorite__rating-average-overall-label">
+                                                        Overall
+                                                    </span>
+                                                    <div class="product__customer__review-favorite__rating-average-overall-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <span class="product__customer__review-favorite__rating-average-overall-num">
+                                                        5.0
+                                                    </span>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+
+                                    <div class="product__customer__review-sort-bar">
+                                        <span class="product__customer__review-sort-bar__label">
+                                            1-5 of Reviews
+                                        </span>
+
+                                        <div class="product__customer__review-sort-bar__type">
+                                            <span class="product__customer__review-sort-bar__type-label">
+                                                Sắp xếp theo:
+                                            </span>
+                                            <div class="product__customer__review-sort-bar__type-name">
+                                                Đặc sắc
+                                            </div>
+                                            <div class="product__customer__review-sort-bar__type-icon">
+                                                <i class="fas fa-sort-down"></i>
+                                            </div>
+
+                                            <ul id="product__customer__review-list" class="product__customer__review-list">
+                                                <li class="product__customer__review-item">
+                                                    Liên quan nhất
+                                                </li>
+
+                                                <li class="product__customer__review-item">
+                                                    Hữu ích nhất
+                                                </li>
+
+                                                <li class="product__customer__review-item">
+                                                    Xếp hạng từ cao đến thấp
+                                                </li>
+
+                                                <li class="product__customer__review-item">
+                                                    Xếp hạng từ thấp đến cao
+                                                </li>
+                                                <li class="product__customer__review-item">
+                                                    Đặc sắc
+                                                </li>
+
+                                                <li class="product__customer__review-item">
+                                                    Gần đây nhất
+                                                </li>
+                                            </ul>
+                                            <!-- 
+                                            <script>
+                                                function display_list_sort() {
+                                                    document.getElementById("product__customer__review-list").style.display = "block";
+
+                                                }
+                                            </script> -->
+
+                                        </div>
+                                    </div>
+
+                                    <div class="product__customer__review-comment-container">
+                                        <div class="product__customer__review-comment-item">
+                                            <div class="product__customer__review-comment-author">
+                                                <span class="product__customer__review-comment-author-name">
+                                                    Jess
+                                                </span>
+                                                <span class="product__customer__review-comment-author-location">
+                                                    radding CA
+                                                </span>
+                                                <div class="product__customer__review-comment-author-stat-view">
+                                                    <span class="product__customer__review-comment-author-stat-view-label">
+                                                        Reviews
+                                                    </span>
+
+                                                    <span class="product__customer__review-comment-author-stat-view-number">
+                                                        2
+                                                    </span>
+                                                </div>
+
+                                                <div class="product__customer__review-comment-author-stat-vote">
+                                                    <span class="product__customer__review-comment-author-stat-vote-label">
+                                                        Vote
+                                                    </span>
+                                                    <span class="product__customer__review-comment-author-stat-vote-number">
+                                                        1
+                                                    </span>
+                                                </div>
+
+                                                <div class="product__customer__review-comment-author-info">
+                                                    <span class="product__customer__review-comment-author-info-label">
+                                                        Reader Type:
+                                                    </span>
+
+                                                    <span class="product__customer__review-comment-author-info-name">
+                                                        Casual Reader
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="product__customer__review-comment-evaluate">
+                                                <div class="product__customer__review-comment-evaluate-star">
+                                                    <div class="product__customer__review-comment-evaluate-star-icon">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <span class="product__customer__review-comment-evaluate-star-time">
+                                                        5 months ago
+                                                    </span>
+                                                </div>
+                                                <span class="product__customer__review-comment-evaluate-author">
+                                                    Jess
+                                                </span>
+                                                <span class="product__customer__review-comment-evalute-praise">
+                                                    Thank You
+                                                </span>
+                                                <span class="product__customer__review-comment-evaluate-comment">
+                                                    I can't wait to start reading it, i love watching this show it is the coolest 
+                                                    show ever kasdk adkad adk ad adka asdk ad akd ad dkasd ad adk 
+                                                    da askd ad adk ads ada dkd ad ladk adkjd ada đak ada dk
+                                                </span>
+                                                <div class="product__customer__review-comment-evaluate-spoilers">
+                                                    <span class="product__customer__review-comment-evaluate-spoilers-label">
+                                                        Review Contains Spoilers:
+                                                    </span>
+
+                                                    <span class="product__customer__review-comment-evaluate-spoilers-option">
+                                                        Yes
+                                                    </span>
+                                                </div>
+
+                                                <div class="product__customer__review-comment-evaluate-tag">
+                                                    <div class="product__customer__review-comment-evaluate-tag-icon">
+                                                        <i class="fas fa-tag"></i>
+                                                    </div>
+                                                    <span class="product__customer__review-comment-evaluate-tag-label">
+                                                            Tags:
+                                                        </span>
+                                                    <span class="product__customer__review-comment-evaluate-tag-name">
+                                                            Action Packed, Emotional, Laughed Out Loud, Classic
+                                                        </span>
+                                                </div>
+
+                                                <div class="product__customer__review-comment-evaluate-content">
+                                                    <div class="product__customer__review-comment-evaluate-content-icon">
+                                                        <i class="fas fa-check-circle"></i>
+                                                    </div>
+                                                    <span class="product__customer__review-comment-evaluate-content-label">
+                                                            Yes:
+                                                        </span>
+                                                    <span class="product__customer__review-comment-evaluate-content-name">
+                                                            I recommend this product.
+                                                        </span>
+                                                </div>
+
+                                                <div class="product__customer__review-comment-evaluate-help">
+                                                    <span class="product__customer__review-comment-evaluate-help-label">
+                                                            Helpful?
+                                                        </span>
+
+                                                    <div class="product__customer__review-comment-evaluate-help__tag">
+                                                        Yes - 0
+                                                    </div>
+
+                                                    <div class="product__customer__review-comment-evaluate-help__tag">
+                                                        No - 0
+                                                    </div>
+
+                                                    <div class="product__customer__review-comment-evaluate-help__tag">
+                                                        Report
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+
+                                        <div class="product__customer__review-comment-item">
+                                            <div class="product__customer__review-comment-author">
+                                                <span class="product__customer__review-comment-author-name">
+                                                    Jess
+                                                </span>
+                                                <span class="product__customer__review-comment-author-location">
+                                                    radding CA
+                                                </span>
+                                                <div class="product__customer__review-comment-author-stat-view">
+                                                    <span class="product__customer__review-comment-author-stat-view-label">
+                                                        Reviews
+                                                    </span>
+
+                                                    <span class="product__customer__review-comment-author-stat-view-number">
+                                                        2
+                                                    </span>
+                                                </div>
+
+                                                <div class="product__customer__review-comment-author-stat-vote">
+                                                    <span class="product__customer__review-comment-author-stat-vote-label">
+                                                        Vote
+                                                    </span>
+                                                    <span class="product__customer__review-comment-author-stat-vote-number">
+                                                        1
+                                                    </span>
+                                                </div>
+
+                                                <div class="product__customer__review-comment-author-info">
+                                                    <span class="product__customer__review-comment-author-info-label">
+                                                        Reader Type:
+                                                    </span>
+
+                                                    <span class="product__customer__review-comment-author-info-name">
+                                                        Casual Reader
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="product__customer__review-comment-evaluate">
+                                                <div class="product__customer__review-comment-evaluate-star">
+                                                    <div class="product__customer__review-comment-evaluate-star-icon">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <span class="product__customer__review-comment-evaluate-star-time">
+                                                        5 months ago
+                                                    </span>
+                                                </div>
+                                                <span class="product__customer__review-comment-evaluate-author">
+                                                    Jess
+                                                </span>
+                                                <span class="product__customer__review-comment-evalute-praise">
+                                                    Thank You
+                                                </span>
+                                                <span class="product__customer__review-comment-evaluate-comment">
+                                                    I can't wait to start reading it, i love watching this show it is the coolest 
+                                                    show ever kasdk adkad adk ad adka asdk ad akd ad dkasd ad adk 
+                                                    da askd ad adk ads ada dkd ad ladk adkjd ada đak ada dk
+                                                </span>
+                                                <div class="product__customer__review-comment-evaluate-spoilers">
+                                                    <span class="product__customer__review-comment-evaluate-spoilers-label">
+                                                        Review Contains Spoilers:
+                                                    </span>
+
+                                                    <span class="product__customer__review-comment-evaluate-spoilers-option">
+                                                        Yes
+                                                    </span>
+                                                </div>
+
+                                                <div class="product__customer__review-comment-evaluate-tag">
+                                                    <div class="product__customer__review-comment-evaluate-tag-icon">
+                                                        <i class="fas fa-tag"></i>
+                                                    </div>
+                                                    <span class="product__customer__review-comment-evaluate-tag-label">
+                                                            Tags:
+                                                        </span>
+                                                    <span class="product__customer__review-comment-evaluate-tag-name">
+                                                            Action Packed, Emotional, Laughed Out Loud, Classic
+                                                        </span>
+                                                </div>
+
+                                                <div class="product__customer__review-comment-evaluate-content">
+                                                    <div class="product__customer__review-comment-evaluate-content-icon">
+                                                        <i class="fas fa-check-circle"></i>
+                                                    </div>
+                                                    <span class="product__customer__review-comment-evaluate-content-label">
+                                                            Yes:
+                                                        </span>
+                                                    <span class="product__customer__review-comment-evaluate-content-name">
+                                                            I recommend this product.
+                                                        </span>
+                                                </div>
+
+                                                <div class="product__customer__review-comment-evaluate-help">
+                                                    <span class="product__customer__review-comment-evaluate-help-label">
+                                                            Helpful?
+                                                        </span>
+
+                                                    <div class="product__customer__review-comment-evaluate-help__tag">
+                                                        Yes - 0
+                                                    </div>
+
+                                                    <div class="product__customer__review-comment-evaluate-help__tag">
+                                                        No - 0
+                                                    </div>
+
+                                                    <div class="product__customer__review-comment-evaluate-help__tag">
+                                                        Report
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+
+                                        <div class="product__customer__review-comment-item">
+                                            <div class="product__customer__review-comment-author">
+                                                <span class="product__customer__review-comment-author-name">
+                                                    Jess
+                                                </span>
+                                                <span class="product__customer__review-comment-author-location">
+                                                    radding CA
+                                                </span>
+                                                <div class="product__customer__review-comment-author-stat-view">
+                                                    <span class="product__customer__review-comment-author-stat-view-label">
+                                                        Reviews
+                                                    </span>
+
+                                                    <span class="product__customer__review-comment-author-stat-view-number">
+                                                        2
+                                                    </span>
+                                                </div>
+
+                                                <div class="product__customer__review-comment-author-stat-vote">
+                                                    <span class="product__customer__review-comment-author-stat-vote-label">
+                                                        Vote
+                                                    </span>
+                                                    <span class="product__customer__review-comment-author-stat-vote-number">
+                                                        1
+                                                    </span>
+                                                </div>
+
+                                                <div class="product__customer__review-comment-author-info">
+                                                    <span class="product__customer__review-comment-author-info-label">
+                                                        Reader Type:
+                                                    </span>
+
+                                                    <span class="product__customer__review-comment-author-info-name">
+                                                        Casual Reader
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="product__customer__review-comment-evaluate">
+                                                <div class="product__customer__review-comment-evaluate-star">
+                                                    <div class="product__customer__review-comment-evaluate-star-icon">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <span class="product__customer__review-comment-evaluate-star-time">
+                                                        5 months ago
+                                                    </span>
+                                                </div>
+                                                <span class="product__customer__review-comment-evaluate-author">
+                                                    Jess
+                                                </span>
+                                                <span class="product__customer__review-comment-evalute-praise">
+                                                    Thank You
+                                                </span>
+                                                <span class="product__customer__review-comment-evaluate-comment">
+                                                    I can't wait to start reading it, i love watching this show it is the coolest 
+                                                    show ever kasdk adkad adk ad adka asdk ad akd ad dkasd ad adk 
+                                                    da askd ad adk ads ada dkd ad ladk adkjd ada đak ada dk
+                                                </span>
+                                                <div class="product__customer__review-comment-evaluate-spoilers">
+                                                    <span class="product__customer__review-comment-evaluate-spoilers-label">
+                                                        Review Contains Spoilers:
+                                                    </span>
+
+                                                    <span class="product__customer__review-comment-evaluate-spoilers-option">
+                                                        Yes
+                                                    </span>
+                                                </div>
+
+                                                <div class="product__customer__review-comment-evaluate-tag">
+                                                    <div class="product__customer__review-comment-evaluate-tag-icon">
+                                                        <i class="fas fa-tag"></i>
+                                                    </div>
+                                                    <span class="product__customer__review-comment-evaluate-tag-label">
+                                                            Tags:
+                                                        </span>
+                                                    <span class="product__customer__review-comment-evaluate-tag-name">
+                                                            Action Packed, Emotional, Laughed Out Loud, Classic
+                                                        </span>
+                                                </div>
+
+                                                <div class="product__customer__review-comment-evaluate-content">
+                                                    <div class="product__customer__review-comment-evaluate-content-icon">
+                                                        <i class="fas fa-check-circle"></i>
+                                                    </div>
+                                                    <span class="product__customer__review-comment-evaluate-content-label">
+                                                            Yes:
+                                                        </span>
+                                                    <span class="product__customer__review-comment-evaluate-content-name">
+                                                            I recommend this product.
+                                                        </span>
+                                                </div>
+
+                                                <div class="product__customer__review-comment-evaluate-help">
+                                                    <span class="product__customer__review-comment-evaluate-help-label">
+                                                            Helpful?
+                                                        </span>
+
+                                                    <div class="product__customer__review-comment-evaluate-help__tag">
+                                                        Yes - 0
+                                                    </div>
+
+                                                    <div class="product__customer__review-comment-evaluate-help__tag">
+                                                        No - 0
+                                                    </div>
+
+                                                    <div class="product__customer__review-comment-evaluate-help__tag">
+                                                        Report
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+
+                                        <div class="product__customer__review-comment-item">
+                                            <div class="product__customer__review-comment-author">
+                                                <span class="product__customer__review-comment-author-name">
+                                                    Jess
+                                                </span>
+                                                <span class="product__customer__review-comment-author-location">
+                                                    radding CA
+                                                </span>
+                                                <div class="product__customer__review-comment-author-stat-view">
+                                                    <span class="product__customer__review-comment-author-stat-view-label">
+                                                        Reviews
+                                                    </span>
+
+                                                    <span class="product__customer__review-comment-author-stat-view-number">
+                                                        2
+                                                    </span>
+                                                </div>
+
+                                                <div class="product__customer__review-comment-author-stat-vote">
+                                                    <span class="product__customer__review-comment-author-stat-vote-label">
+                                                        Vote
+                                                    </span>
+                                                    <span class="product__customer__review-comment-author-stat-vote-number">
+                                                        1
+                                                    </span>
+                                                </div>
+
+                                                <div class="product__customer__review-comment-author-info">
+                                                    <span class="product__customer__review-comment-author-info-label">
+                                                        Reader Type:
+                                                    </span>
+
+                                                    <span class="product__customer__review-comment-author-info-name">
+                                                        Casual Reader
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="product__customer__review-comment-evaluate">
+                                                <div class="product__customer__review-comment-evaluate-star">
+                                                    <div class="product__customer__review-comment-evaluate-star-icon">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <span class="product__customer__review-comment-evaluate-star-time">
+                                                        5 months ago
+                                                    </span>
+                                                </div>
+                                                <span class="product__customer__review-comment-evaluate-author">
+                                                    Jess
+                                                </span>
+                                                <span class="product__customer__review-comment-evalute-praise">
+                                                    Thank You
+                                                </span>
+                                                <span class="product__customer__review-comment-evaluate-comment">
+                                                    I can't wait to start reading it, i love watching this show it is the coolest 
+                                                    show ever kasdk adkad adk ad adka asdk ad akd ad dkasd ad adk 
+                                                    da askd ad adk ads ada dkd ad ladk adkjd ada đak ada dk
+                                                </span>
+                                                <div class="product__customer__review-comment-evaluate-spoilers">
+                                                    <span class="product__customer__review-comment-evaluate-spoilers-label">
+                                                        Review Contains Spoilers:
+                                                    </span>
+
+                                                    <span class="product__customer__review-comment-evaluate-spoilers-option">
+                                                        Yes
+                                                    </span>
+                                                </div>
+
+                                                <div class="product__customer__review-comment-evaluate-tag">
+                                                    <div class="product__customer__review-comment-evaluate-tag-icon">
+                                                        <i class="fas fa-tag"></i>
+                                                    </div>
+                                                    <span class="product__customer__review-comment-evaluate-tag-label">
+                                                            Tags:
+                                                        </span>
+                                                    <span class="product__customer__review-comment-evaluate-tag-name">
+                                                            Action Packed, Emotional, Laughed Out Loud, Classic
+                                                        </span>
+                                                </div>
+
+                                                <div class="product__customer__review-comment-evaluate-content">
+                                                    <div class="product__customer__review-comment-evaluate-content-icon">
+                                                        <i class="fas fa-check-circle"></i>
+                                                    </div>
+                                                    <span class="product__customer__review-comment-evaluate-content-label">
+                                                            Yes:
+                                                        </span>
+                                                    <span class="product__customer__review-comment-evaluate-content-name">
+                                                            I recommend this product.
+                                                        </span>
+                                                </div>
+
+                                                <div class="product__customer__review-comment-evaluate-help">
+                                                    <span class="product__customer__review-comment-evaluate-help-label">
+                                                            Helpful?
+                                                        </span>
+
+                                                    <div class="product__customer__review-comment-evaluate-help__tag">
+                                                        Yes - 0
+                                                    </div>
+
+                                                    <div class="product__customer__review-comment-evaluate-help__tag">
+                                                        No - 0
+                                                    </div>
+
+                                                    <div class="product__customer__review-comment-evaluate-help__tag">
+                                                        Report
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+
+                                        <div class="product__customer__review-comment-item">
+                                            <div class="product__customer__review-comment-author">
+                                                <span class="product__customer__review-comment-author-name">
+                                                    Jess
+                                                </span>
+                                                <span class="product__customer__review-comment-author-location">
+                                                    radding CA
+                                                </span>
+                                                <div class="product__customer__review-comment-author-stat-view">
+                                                    <span class="product__customer__review-comment-author-stat-view-label">
+                                                        Reviews
+                                                    </span>
+
+                                                    <span class="product__customer__review-comment-author-stat-view-number">
+                                                        2
+                                                    </span>
+                                                </div>
+
+                                                <div class="product__customer__review-comment-author-stat-vote">
+                                                    <span class="product__customer__review-comment-author-stat-vote-label">
+                                                        Vote
+                                                    </span>
+                                                    <span class="product__customer__review-comment-author-stat-vote-number">
+                                                        1
+                                                    </span>
+                                                </div>
+
+                                                <div class="product__customer__review-comment-author-info">
+                                                    <span class="product__customer__review-comment-author-info-label">
+                                                        Reader Type:
+                                                    </span>
+
+                                                    <span class="product__customer__review-comment-author-info-name">
+                                                        Casual Reader
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="product__customer__review-comment-evaluate">
+                                                <div class="product__customer__review-comment-evaluate-star">
+                                                    <div class="product__customer__review-comment-evaluate-star-icon">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <span class="product__customer__review-comment-evaluate-star-time">
+                                                        5 months ago
+                                                    </span>
+                                                </div>
+                                                <span class="product__customer__review-comment-evaluate-author">
+                                                    Jess
+                                                </span>
+                                                <span class="product__customer__review-comment-evalute-praise">
+                                                    Thank You
+                                                </span>
+                                                <span class="product__customer__review-comment-evaluate-comment">
+                                                    I can't wait to start reading it, i love watching this show it is the coolest 
+                                                    show ever kasdk adkad adk ad adka asdk ad akd ad dkasd ad adk 
+                                                    da askd ad adk ads ada dkd ad ladk adkjd ada đak ada dk
+                                                </span>
+                                                <div class="product__customer__review-comment-evaluate-spoilers">
+                                                    <span class="product__customer__review-comment-evaluate-spoilers-label">
+                                                        Review Contains Spoilers:
+                                                    </span>
+
+                                                    <span class="product__customer__review-comment-evaluate-spoilers-option">
+                                                        Yes
+                                                    </span>
+                                                </div>
+
+                                                <div class="product__customer__review-comment-evaluate-tag">
+                                                    <div class="product__customer__review-comment-evaluate-tag-icon">
+                                                        <i class="fas fa-tag"></i>
+                                                    </div>
+                                                    <span class="product__customer__review-comment-evaluate-tag-label">
+                                                            Tags:
+                                                        </span>
+                                                    <span class="product__customer__review-comment-evaluate-tag-name">
+                                                            Action Packed, Emotional, Laughed Out Loud, Classic
+                                                        </span>
+                                                </div>
+
+                                                <div class="product__customer__review-comment-evaluate-content">
+                                                    <div class="product__customer__review-comment-evaluate-content-icon">
+                                                        <i class="fas fa-check-circle"></i>
+                                                    </div>
+                                                    <span class="product__customer__review-comment-evaluate-content-label">
+                                                            Yes:
+                                                        </span>
+                                                    <span class="product__customer__review-comment-evaluate-content-name">
+                                                            I recommend this product.
+                                                        </span>
+                                                </div>
+
+                                                <div class="product__customer__review-comment-evaluate-help">
+                                                    <span class="product__customer__review-comment-evaluate-help-label">
+                                                            Helpful?
+                                                        </span>
+
+                                                    <div class="product__customer__review-comment-evaluate-help__tag">
+                                                        Yes - 0
+                                                    </div>
+
+                                                    <div class="product__customer__review-comment-evaluate-help__tag">
+                                                        No - 0
+                                                    </div>
+
+                                                    <div class="product__customer__review-comment-evaluate-help__tag">
+                                                        Report
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- recently Viewed -->
+
+                        <div class="product__info__title-center">
+                            <div class="product__info__title-center-line hide-on-tablet hide-on-mobile">
+
+                                <div class="product__info__title-center-content">
+                                    <span class="product__info__title-center-content-label">
+                                      Recently Viewed
+                                    </span>
+                                    <a href="#" class="product__info__more-series__link">
+                                        Clear All
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- tablet & moblie -->
+
+                            <div class="product__info__title-center__mini">
+                                <div class="product__info__title-center-content__mini">
+                                    <span class="product__info__title-center-content-label__mini">
+                                        Recently Viewed
+                                    </span>
+                                    <a href="#" class="product__info__more-series__link__mini">
+                                        See All
+                                     </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product__customer__recently-container">
+                            <div class="col l-3 m-4 c-6">
+                                <div class="product__info__more-series__list-item">
+                                    <a href="" class="product__info__more-series__list-item-link">
+                                        <div class="product__info__more-series__list-item__img" style="background-image: url(https://prodimage.images-bn.com/pimages/9781421585109_p0_v2_s192x300.jpg);">
+                                            <div class="product__info__more-series__list-item__quick-add">
+
+                                                <div class="product__info__more-series__list-item__quick-add-box">
+                                                    <span class="product__info__more-series__list-item__quick-add-label">
+                                                       QUICK ADD
+                                                    </span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+                                        <div class="product__info__more-series__list-item__info">
+
+                                            <a href="#" class="product__info__more-series__list-item__name">
+                                                My Hero Academia, vip pro  Vol. 1
+                                            </a>
+                                            <div class="product__info__also-like__list-item__actor">
+                                                <div class="product__info__also-like__list-item__actor-by">
+                                                    by
+                                                </div>
+                                                <div class="product__info__also-like__list-item__actor-name">
+                                                    Kohei Horikoshi
+                                                </div>
+                                                <!-- doing -->
+                                            </div>
+                                            <div class="product__info__also-like__list-item-favorite">
+                                                <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- heart -->
+                                        <div class="product__list-item__heart">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div include-html="../templates/footer.html"></div>
+
+        <!-- Modal layout -->
+        <!-- <div class="modal">
+            <div class="modal__overlay"></div>
+            
+            <div class="modal__body"> -->
+        <!-- Register form -->
+        <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng ký</h3>
+                            <span class="auth-form__switch-btn">Đăng nhập</span>
+                        </div>
+
+                        <div class="auth-form__form">
+                            <div class="auth-forn__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                            </div>
+                            <div class="auth-forn__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            </div>
+                            <div class="auth-forn__group">
+                                <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                            </div>
+                        </div>
+
+                        <div class="auth-form__aside">
+                            <p class="auth-form__policy-text">
+                                Bằng việc đăng ký, bạn đã đồng ý với F8 - Shopee về 
+                                <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a>
+                                &
+                                <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                            </p>
+                        </div>
+
+                        <div class="auth-form__control">
+                            <button class="btn btn--normal auth-form__control-back">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fab fa-facebook-square"></i>                            
+                            <span class="auth-form__socials-label">Kết nối với Facebook</span>
+                        </a>
+                        <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                            <img class="auth-form__socials-icon-img" src="./assets/img/google_50px.png" alt="">
+                            <span class="auth-form__socials-label">Kết nối với Google</span>
+                        </a>
+                    </div>
+                </div> -->
+
+        <!-- Login form -->
+        <!-- <div class="auth-form"> 
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng nhập</h3>
+                            <span class="auth-form__switch-btn">Đăng ký</span>
+                        </div>
+
+                        <div class="auth-form__form">
+                            <div class="auth-forn__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                            </div>
+                            <div class="auth-forn__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            </div>
+                        </div>
+
+                        <div class="auth-form__aside">
+                            <div class="auth-form__help">
+                                <a href="" class="auth-form__help-link auth-form__help-link--forgot">Quên mật khẩu</a>
+                                <span class="auth-form__help-separate"></span>
+                                <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                            </div>
+                        </div>
+
+                        <div class="auth-form__control">
+                            <button class="btn btn--normal auth-form__control-back">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fab fa-facebook-square"></i>                            
+                            <span class="auth-form__socials-label">Đăng nhập với Facebook</span>
+                        </a>
+                        <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                            <img class="auth-form__socials-icon-img" src="./assets/img/google_50px.png" alt="">
+                            <span class="auth-form__socials-label">Đăng nhập với Google</span>
+                        </a>
+                    </div>
+                </div> -->
+    </div>
+    </div>
+    </div>
+
+    <script src="../js/include-html.js"></script>
+</body>
+
+</html>
