@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookSafe - Donation Program</title>
+
+    <!-- ICON FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+
+    <!-- FONT FAMILY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;1,400&family=Lato:wght@300;400;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS RESET -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!-- CSS BASE-->
+    <link rel="stylesheet" href="../css/base.css">
+
+    <!-- CSS GRID SYSTEM -->
+    <link rel="stylesheet" href="../css/grid.css">
+
+    <!-- CSS for PAGE -->
+    <link rel="stylesheet" href="../css/template.css">
+
+    <!-- Copy link style của page -->
+
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <!-- CSS DONATE PAGE -->
+    <link rel="stylesheet" href="../css/donate.css">
+
+</head>
+
+<body>
+    <!-- Block Element Modifier -->
+    <div class="app">
+
+        <div include-html="../templates/header.html"></div>
+
+        <div class="app__container">
+            <div class="grid wide">
+
+                <!-- Viết code -->
+
+                <!-- Start of About section -->
+                <div class="section">
+                    <h1 class="section__header">
+                        About Booksafe Donation Program
+                    </h1>
+                    <div class="section__info">
+                        <p>
+                            Our program is for anyone who would love to repurpose books they no longer want or need on their shelves. You will send us
+                            books, and in turn we donate them to charities to help children in need of school supplies and textbooks.
+                            BookSafe receives good quality, used books, sorts them, and finds new readers worldwide,
+                            extending the life of books.
+                            We put quality, affordable books into the hands of those who love to read.</p>
+                    </div>
+                </div>
+
+                <!-- Start of Donating section -->
+                <div class="section">
+                    <h1 class="section__header">
+                        Donating is easy
+                    </h1>
+                    <div class="section__info section__steps">
+                        <div class="section__steps__item">
+                            <h2 class="section__steps__item__number">1</h2>
+                            <p class="section__steps__item__info">Pack your books</p>
+                        </div>
+                        <div class="section__steps__item">
+                            <h2 class="section__steps__item__number">2</h2>
+                            <p class="section__steps__item__info">Contact us</p>
+                        </div>
+                        <div class="section__steps__item">
+                            <h2 class="section__steps__item__number">3</h2>
+                            <p class="section__steps__item__info">We'll give them to those in need</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Start of differences -->
+                <div class="section">
+                    <h1 class="section__header">
+                        The differences you'll be making
+                    </h1>
+                    <div class="section__info section__achievements">
+                        <div class="section__achievements__item">
+                            <h2 class="section__achievements__item__number">750,000</h2>
+                            <p class="section__achievements__item__info">Books donated in 2020</p>
+                        </div>
+                        <div class="section__achievements__item">
+                            <h2 class="section__achievements__item__number">1,000,000</h2>
+                            <p class="section__achievements__item__info">Books saved from landfill</p>
+                        </div>
+                        <div class="section__achievements__item">
+                            <h2 class="section__achievements__item__number">2,000,000</h2>
+                            <p class="section__achievements__item__info">Books given to literacy programs</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Start of Contact form -->
+                <div class="section">
+                    <h1 class="section__header">Contact form</h1>
+                    <p class="section__info">
+                        If you're interested in donating your books to BookSafe, please complete this form below and
+                        we'll be in touch.
+                    </p>
+
+                    <form onsubmit="return false;" class="section__form">
+                        <div class="form-group">
+                            <div class="form-group__header">
+                                <h2>Your Details</h2>
+                            </div>
+
+                            <input type="text" class="form-group__input" placeholder="Your Name">
+                            <input type="email" class="form-group__input" placeholder="Your Email Address">
+                            <input type="phone" class="form-group__input" placeholder="Best phone number to contact you">
+                        </div>
+
+                        <div class="form-group">
+                            <div class="form-group__header">
+                                <h2>Your Address</h2>
+                            </div>
+
+                            <select name="city" id="city" class="form-group__input">
+                                <option value="0">Choose your city</option>
+                                <option value="1">Ho Chi Minh City</option>
+                                <option value="2">Ha Noi</option>
+                                <option value="3">Nha Trang</option>
+                                <option value="4">Da Lat</option>
+                                <option value="5">Ca Mau</option>
+                                <option value="6">Bien Hoa</option>
+                                <option value="7">Hai Phong</option>
+                                <option value="8">Hue</option>
+                                <option value="9">Vung Tau</option>
+                            </select>
+
+                            <select name="district" id="district" class="form-group__input">
+                                <option value="0">Choose your district</option>
+                                <option value="1">District 1</option>
+                                <option value="2">District 2</option>
+                                <option value="3">District 3</option>
+                                <option value="4">District 4</option>
+                                <option value="5">District 5</option>
+                                <option value="6">District 6</option>
+                                <option value="7">District 7</option>
+                                <option value="8">District 8</option>
+                                <option value="9">District 9</option>
+                                <option value="10">District 10</option>
+                                <option value="11">District 11</option>
+                                <option value="12">District 12</option>
+                                <option value="13">Binh Tan District</option>
+                                <option value="14">Binh Thanh District</option>
+                                <option value="15">Go Vap District</option>
+                                <option value="16">Phu Nhuan District</option>
+                                <option value="17">Tan Binh District</option>
+                                <option value="18">Tan Phu District</option>
+                                <option value="19">Thu Duc District</option>
+                                <option value="20">Binh Chanh District</option>
+                                <option value="21">Can Gio District</option>
+                                <option value="22">Cu Chi District</option>
+                                <option value="23">Hoc Mon District</option>
+                                <option value="24">Nha Be District</option>
+                            </select>
+
+                            <input type="text" class="form-group__input" placeholder="Home address">
+                        </div>
+
+                        <div class="form-group">
+                            <div class="form-group__header">
+                                <h2>What book do you want to donate?</h2>
+                            </div>
+
+                            <input type="text" class="form-group__input" placeholder="Your Book's Title">
+                            <select name="condition" id="condition" class="form-group__input">
+                                <option value="0">Your book's condition</option>
+                                <option value="1">Like New - no visible signs of wear or tear</option>
+                                <option value="2">Very good - slight wear or tear, there may be some writing inside</option>
+                                <option value="3">Good - pages remain intact, though the cover can have signs of wear or tear</option>
+                                <option value="4">Acceptable - a readable copy, there may be writing or highlighting but the texts are visible
+                                </option>
+                            </select>
+                        </div>
+
+                        <input class="form-submit" type="submit" value="Submit" </form>
+                </div>
+
+                <!-- Start of FAQ -->
+                <div class="section">
+                    <h1 class="section__header section__header--clickable" onclick="show()">FAQ <i class="fas fa-chevron-down"></i><i
+                            class="fas fa-chevron-up"></i></h1>
+                    <p class="section__info section">
+                        If you're having any problems or questions about the program, consult our FAQ.
+                    </p>
+                    <div class="section__question">
+                        <ul class="section__question__list">
+                            <li class="section__question__list__item">
+                                <strong>Does this program cost any money?</strong>
+                                <p>Absolutely nothing! We don't charge money when you're giving from the heart.</p>
+                            </li>
+                            <li class="section__question__list__item">
+                                <strong>How do we get the books to you?</strong>
+                                <p>We offer several shipping options depending on your volume and facility. We use several delivery methods including
+                                    LTL
+                                    freight services.</p>
+                            </li>
+                            <li class="section__question__list__item">
+                                <strong>What types of books do you take?</strong>
+                                <p>We sell on all the major marketplaces such as Amazon.com, Abe.com, Alibris.com, eBay.com, bn.com (Barnes & Noble),
+                                    BookSafe.com, and many others.</p>
+                            </li>
+                            <li class="section__question__list__item">
+                                <strong>Can we bring the books to you?</strong>
+                                <p>Absolutely! Our large network of processing centers makes it easy and convenient for libraries to drop off their
+                                    books.
+                                </p>
+                            </li>
+                            <li class="section__question__list__item">
+                                <strong>Do you take books without an ISBN?</strong>
+                                <p>Yes. We offer a special service where we evaluate and list non-ISBN, collectable, rare and antiquarian books.</p>
+                            </li>
+                        </ul>
+
+                        <form class="section__question__form">
+                            <label for="question">Don't find the information you need? Leave it down below and we'll get back to you</label>
+                            <textarea id="question" name="question">Type your question here.</textarea>
+                            <input class="section__question__form__input" type="submit" value="Send">
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div include-html="../templates/footer.html"></div>
+    </div>
+    </div>
+    </div>
+
+    <script src="../js/include-html.js"></script>
+
+    <!-- JS cho đóng mở mục FAQ -->
+    <script>
+        let clickable = document.querySelector('.section__header--clickable')
+        let list = document.querySelector('.section__question');
+        let arrow_down = document.querySelector('.fa-chevron-down');
+        let arrow_up = document.querySelector('.fa-chevron-up');
+        clickable.addEventListener('click', (e) => {
+            if (list.style.display == 'none') {
+                list.style.display = 'block';
+                arrow_up.style.display = 'inline-block';
+                arrow_down.style.display = 'none';
+                return;
+            }
+            else {
+                list.style.display = 'none';
+                arrow_up.style.display = 'none';
+                arrow_down.style.display = 'inline-block';
+            }
+        })
+    </script>
+</body>
+
+</html>
