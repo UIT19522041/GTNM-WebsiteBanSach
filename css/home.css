@@ -1,13 +1,6 @@
 /* Home CSS */
 /* App container */
 
-.app__container {
-	/* background-color: #F5F5F5; */
-	margin: 2px 0;
-	border: solid #ccc;
-	border-width: 2px 0;
-}
-
 /* Banner Large */
 .banner-large__slider {
 	margin: 10px 0;
