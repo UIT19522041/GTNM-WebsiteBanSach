@@ -57,7 +57,7 @@ p {
 }
 
 .article__body__content .article__body__sub-heading {
-	font-size: 3rem;
+	font-size: 2rem;
 	font-family: "Fraunces", sans-serif;
 	line-height: 3.5rem;
 	margin-bottom: 1rem;
@@ -97,4 +97,14 @@ p {
 .related-posts__item__title {
 	color: var(--text-color);
 	font-size: 1.8rem;
+}
+
+@media (max-width: 1023px) {
+	.article__body .article__body__summary {
+		text-align: center;
+	}
+	.article__body .article__body__summary .article__body__heading {
+		font-size: 3rem;
+		line-height: 3.5rem;
+	}
 }
