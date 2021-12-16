@@ -723,7 +723,7 @@
 .product__info__more-series__list-item__quick-add {
 	background-color: var(--white-color);
 	position: absolute;
-	bottom: 5%;
+	bottom: 4%;
 	width: 100%;
 	display: none;
 	padding: 5% 15%;
