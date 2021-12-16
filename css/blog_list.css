@@ -47,12 +47,14 @@
 }
 
 .article-large .article-large__read-button {
+	display: inline-block;
 	margin: 20px 0px;
 	border: none;
 	padding: 10px 15px;
 	background: var(--primary-color);
 	color: var(--white-color);
 	font-size: 1.5rem;
+	text-decoration: none;
 	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -109,12 +111,14 @@
 }
 
 .article-list__content .article-list__content__read-button {
+	display: inline-block;
 	border: none;
-	margin: 20px 0px;
+	margin: 15px 0px;
 	padding: 10px 15px;
 	background: var(--primary-color);
 	color: var(--white-color);
 	font-size: 1.5rem;
+	text-decoration: none;
 	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
