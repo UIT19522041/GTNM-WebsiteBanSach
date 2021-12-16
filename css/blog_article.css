@@ -71,3 +71,30 @@ p {
 .article__body__content .article__body__sub-heading a:hover {
 	text-decoration: underline;
 }
+
+.suggestions {
+	margin-top: 50px;
+}
+
+.related-posts__heading {
+	font-size: 2rem;
+	font-family: "Fraunces", sans-serif;
+	margin-top: 50px;
+}
+
+.related-posts {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.related-posts__item {
+	text-decoration: none;
+	text-align: center;
+}
+
+.related-posts__item__title {
+	color: var(--text-color);
+	font-size: 1.8rem;
+}
