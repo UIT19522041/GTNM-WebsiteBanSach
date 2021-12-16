@@ -1582,26 +1582,18 @@ td {
 .modal__info__body {
 	--growth-from: 0.7;
 	--growth-to: 1;
-	/* margin: auto; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	/* width: fit-content; */
 	width: fit-content;
 	height: fit-content;
 	margin: auto;
-	/* margin-top: 25%;
-                            margin-bottom: 25%; */
 	margin-top: 10%;
 	z-index: 2;
 	animation: growth linear 0.2s;
 }
 /* auth__info-form */
-/* Authen modal */
-
-/* ----- */
-/* login form */
 
 /* Form đăng nhập mới */
 .auth-form {
