@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Bookstore</title>
+    <title>BookSafe</title>
 
     <!-- ICON FONTAWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -34,9 +34,8 @@
 
     <link rel="stylesheet" href="../css/responsive.css">
 
-    <!-- tuan -->
+    <!-- CSS -->
     <link rel="stylesheet" href="../css/product_info.css">
-    <!--  -->
 
 </head>
 
@@ -51,64 +50,46 @@
 
                 <!-- Viết code -->
 
+                <!-- Breadcrumb -->
+                <div class="col l-12 m-12 c-12">
+                    <div class="navigation__breadcrumb">
+                        <a href="../html/index.html" class="navigation__breadcrumb-item">
+                            Home
+                        </a>
+                        <span class="navigation__breadcrumb-icon">
+                            <i class="fas fa-chevron-right"></i>
+                        </span>
+                        <a href="../html/product_list.html" class="navigation__breadcrumb-item navigation__breadcrumb-item--chosen">
+                            Books
+                        </a>
+                    </div>
+                </div>
+                <!-- End of Breadcrumb -->
+
                 <div class="row sm-gutter app__content">
-
                     <div class="col l-12 m-12 c-12 ">
-                        <!-- product__header -->
-                        <div class="product__info-header">
-                            <div class="navigation">
-                                <div class="row sm-gutter">
-                                    <div class="col l-12 m-12 c-12">
-                                        <div class="navigation__header">
-                                            <a href="../html/index.html" class="navigation__header-home">
-                                                Home
-                                            </a>
-                                            <span class="navigation__header-icon">
-                                                <i class="fas fa-chevron-right"></i>
-                                            </span>
-
-                                            <a href="../html/product_list.html" class="navigation__header-current">
-                                                Books
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- product detail full screen-->
-                            <div class="product__detail hide-on-tablet hide-on-mobile">
+                        <div class="product-container">
+                            <!-- Full Screen -->
+                            <div class="product-containdetail hide-on-tablet hide-on-mobile">
                                 <div class="product__detail-container">
                                     <div class="row sm-gutter">
-
                                         <div class="col l-2 m-2 c-2">
-                                            <div class="spaceing">
-
-                                            </div>
                                         </div>
-
-                                        <!-- <div class="col l-5 m-10 c-6 "> -->
-
                                         <div class="product__info-item__main">
-                                            <!-- <div class="product__info-item__main__img" style="background-image: url(../assets/images/product/book-25.jpg);">
-
-                                                    </div> -->
-                                            <img style="width: 300px; height: 460px;" src="../assets/images/product/book-2.jpg" alt="hinh anh">
-
+                                            <img style="width: 300px; height: 460px;" src="../assets/images/product/book-2.jpg"
+                                                alt="My Hero Academia">
                                             <div class="product__info-item__main__favorite">
                                                 <span>BESTSELLER</span>
                                             </div>
 
-                                            <div class="product__info-item__footer">
-                                                <i class="product__info-item__footer-icon fab fa-gratipay"></i>
-
-                                                <a href="#" class="product__info-item__footer-label">
+                                            <div class="product__info-item__wishlist">
+                                                <i class="product__info-item__wishlist-icon fab fa-gratipay"></i>
+                                                <a href="#" class="product__info-item__wishlist-label">
                                                     Add to Wishlist
                                                 </a>
                                             </div>
-
                                         </div>
-                                        <!--  -->
-                                        <!-- </div> -->
+
 
                                         <div class="col l-5 m-5 c-6 ">
                                             <div class="product__info-container">
@@ -259,9 +240,9 @@
                                                             </ul>
 
                                                             <a href="#" class="product__info-vote__button">
-                                                                <span class="product__info-vote__button-label">
-                                                                    Read 5 Reviews
-                                                                </span>
+
+                                                                Read 5 Reviews
+
                                                             </a>
 
                                                         </div>
@@ -401,18 +382,16 @@
 
                                     </div>
                                 </div>
-
                             </div>
 
 
                             <!-- product detail on tablet & mobile -->
                             <div class="product__detail__mini">
-
                                 <div class="col c-9">
                                     <!-- header -->
                                     <div class="product__info-container product__info-container--mini">
                                         <div class="product__info-header">
-                                            My Hero Academia, Vol.2 kasd
+                                            My Hero Academia, Vol.2
                                         </div>
 
                                         <div class="product__info-actor">
@@ -421,12 +400,14 @@
                                             </div>
 
                                             <a href="#" class="product__info-actor-name">
-                                                Kohei Horikoashi
+                                                Kohei Horikoshi
                                             </a>
                                         </div>
 
                                         <div class="product__info-favorite product__info-favorite--mini">
-
+                                            <div class="product__info-favorite-star product__info-favorite-star--gold">
+                                                <i class="fas fa-star"></i>
+                                            </div>
                                             <div class="product__info-favorite-star product__info-favorite-star--gold">
                                                 <i class="fas fa-star"></i>
                                             </div>
@@ -434,59 +415,44 @@
                                             <div class="product__info-favorite-star product__info-favorite-star--gold">
                                                 <i class="fas fa-star"></i>
                                             </div>
-
-                                            <div class="product__info-favorite-star product__info-favorite-star--gold">
-                                                <i class="fas fa-star"></i>
-                                            </div>
-
                                             <div class="product__info-favorite-star">
                                                 <i class="fas fa-star"></i>
                                             </div>
                                             <div class="product__info-favorite-star">
                                                 <i class="fas fa-star"></i>
                                             </div>
-
-
-
                                             <div class="product__info-favorite-number">
                                                 3.0(3)
                                             </div>
-
                                         </div>
 
                                     </div>
 
-                                    <!-- tấm hình -->
+                                    <!-- Image -->
                                     <div class="product__info-item__main">
-                                        <a href="../html/product_info.html" class=" product__info-item__main-link">
+                                        <div class=" product__info-item__main-link">
                                             <div class="product__info-item__main__img"
-                                                style="background-image: url(../assets/images/product/book-4.jpg);">
-
+                                                style="background-image: url(../assets/images/product/book-2.jpg);">
                                             </div>
 
                                             <div class="product__info-item__main__favorite">
                                                 <span>BESTSELLER</span>
                                             </div>
 
-                                            <div class="product__info-item__footer">
-                                                <div class="product__info-item__footer-icon">
-                                                    <i class="product__info-item__footer-icon__heart fab fa-gratipay"></i>
+                                            <div class="product__info-item__wishlist">
+                                                <div class="product__info-item__wishlist-icon">
+                                                    <i class="product__info-item__wishlist-icon__heart fab fa-gratipay"></i>
                                                 </div>
 
-                                                <a href="#" class="product__info-item__footer-label">
+                                                <a href="#" class="product__info-item__wishlist-label">
                                                     Add to Wishlist
                                                 </a>
                                             </div>
-
-                                            <!-- <div class="product__list-item__favorite">
-                                                <span>BESTSELLER</span>
-                                            </div> -->
-
-                                        </a>
+                                        </div>
                                     </div>
                                 </div>
 
-                                <!-- footer -->
+                                <!-- Info -->
                                 <div class="col c-12 ">
 
                                     <div class="product__info-container-ipad">
@@ -572,13 +538,9 @@
                                                     Friday, November 26
                                                 </span>
                                             </div>
-
-
                                         </div>
                                     </div>
-
                                 </div>
-
                             </div>
 
                         </div>
@@ -628,6 +590,7 @@
                                 </div>
                             </div>
                         </div>
+
 
 
                         <!-- More In This Series -->
@@ -2397,7 +2360,7 @@
                                             <!-- <div class="product__customer__review-write__comment-img">
                                                 <i class="far fa-user"></i>
                                             </div> -->
-                                            <textarea rows="4" placeholder="Please give your opinion about the product" type="text"
+                                            <textarea rows="4" placeholder="Send in your thoughts about this book right now!" type="text"
                                                 class="product__customer__review-write__comment-content"></textarea>
 
                                         </div>
@@ -2517,163 +2480,98 @@
             <div id="modal__info__body" class="modal__info__body">
                 <!-- Register form -->
 
-
-                <div id="register__form" class="register__form">
-                    <div class="auth__info-form">
-                        <div class="auth__info-form__container">
-
-                            <div class="auth__form-close">
-                                <i id="auth__form-close" class="fas fa-times"></i>
-
-                                <script>
-                                    document.getElementById("auth__form-close").addEventListener("click", function () {
-                                        var modal = document.getElementById("modal__info");
-                                        modal.style.display = "none";
-                                        // alert("Hello World!");
-                                    });
-                                </script>
-                            </div>
-
-                            <div class="auth__info-form__header">
-                                <h3 class="auth__info-form__heading">Đăng ký tài khoản</h3>
-                                <div class class="auth__info-form__description">
-
-                                    <span class="auth__info-form__description-label">
-                                        Fill in the fields below to create a Barnes & Noble.com account.
-                                    </span><br>
-                                    <span class="auth__info-form__description-label">
-                                        If you already have an account, please
-                                    </span>
-                                    <a href="#" class="auth__info-form__description-link">Sign in</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="auth__info-form__form">
-                            <div class="auth__info-forn__group">
-                                <input type="text" class="auth__info-form__input" placeholder="Email của bạn">
-                            </div>
-                            <div class="auth__info-forn__group">
-                                <input type="password" class="auth__info-form__input" placeholder="Mật khẩu của bạn">
-                            </div>
-                            <div class="auth__info-forn__group">
-                                <input type="password" class="auth__info-form__input" placeholder="Nhập lại mật khẩu">
-                            </div>
-                        </div>
-
-                        <div class="auth__info-form__aside">
-                            <p class="auth__info-form__policy-text">
-                                Bằng việc đăng ký, bạn đã đồng ý với chúng tôi về
-                                <a href="" class="auth__info-form__text-link">Điều khoản dịch vụ</a> &
-                                <a href="" class="auth__info-form__text-link">Chính sách bảo mật</a>
-                            </p>
-                        </div>
-
-                        <div class="auth__info-form__control">
-                            <button id="auth__info-form__button-back" class="auth__info-form__button auth__info-form__button--back">TRỞ LẠI</button>
-                            <div class="modal__space"></div>
-                            <button class="auth__info-form__button">ĐĂNG KÝ</button>
-
-                            <script>
-                                document.getElementById("auth__info-form__button-back").addEventListener("click", function () {
-                                    var register = document.getElementById("register__form");
-                                    var login = document.getElementById("login__form");
-                                    login.style.display = "block"
-                                    register.style.display = "none";
-                                    //alert("Hello World!");
-                                });
-                            </script>
-                        </div>
-
+                <div id="signup" action="/" method="POST" class="auth-form disappear">
+                    <div class="auth-form__header">
+                        <h2>Sign up</h2>
                     </div>
-                    <div class="auth__info-form__socials">
-                        <a href="" class="auth__info-form__socials--facebook">
-                            <i class="auth__info-form__socials-icon fab fa-facebook-square"></i>
-                            <span class="auth__info-form__socials-label">Kết nối với Facebook</span>
-                        </a>
-                        <div class="modal__space"></div>
-                        <a href="" class="auth__info-form__socials--google">
-                            <i class=" auth__info-form__socials-icon fab fa-google"></i>
-                            <span class="auth__info-form__socials-label">Kết nối với Google</span>
-                        </a>
+
+                    <div class="auth-form__group">
+                        <input type="text" class="auth-form__input" placeholder="Your Phone number">
+                    </div>
+
+                    <div class="auth-form__button">
+                        <input class="auth-form__auth-button" type="submit" value="Sign up">
+                    </div>
+
+                    <div class="auth-form__options">
+                        <a href="#">Forgot password?</a>
+                        <a href="#">Sign in with SMS</a>
                     </div>
 
 
-                </div>
+                    <span class="style-text">Or</span>
 
-                <div id="login__form" class="login__form">
-                    <div class="auth__info-form">
-                        <div class="auth__info-form__container">
-                            <div class="auth__form-close">
-                                <i id="auth__login-form-close" class="fas fa-times"></i>
-
-                                <script>
-                                    document.getElementById("auth__login-form-close").addEventListener("click", function () {
-                                        var modal = document.getElementById("modal__info");
-                                        modal.style.display = "none";
-                                        //alert("Hello World!");
-                                    });
-                                </script>
-                            </div>
-                            <div class="auth__info-form__header">
-                                <h3 class="auth__info-form__heading">Đăng nhập hoặc tạo một tài khoản</h3>
-
-                            </div>
-                        </div>
-
-                        <div class="auth__info-form__form">
-                            <div class="auth__info-forn__group">
-                                <input type="text" class="auth__info-form__input" placeholder="Email của bạn">
-                            </div>
-                            <div class="auth__info-forn__group">
-                                <input type="password" class="auth__info-form__input" placeholder="Mật khẩu của bạn">
-                            </div>
-
-                        </div>
-
-                        <div class="login__info-form__remember">
-                            <div class="login__info-form__remember-checkbox">
-                                <input class="login__info-form__remember-checkbox-box" type="checkbox" name="" id="">
-                                <span class="login__info-form__remember-checkbox-label">
-                                    Nhớ mật khẩu
-                                </span>
-                            </div>
-
-                            <a href="#" class="login__info-form__remember-forgot">
-                                Quên mật khẩu?
+                    <ul class="auth-form__socials">
+                        <li class="auth-form__socials__item facebook">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                                <span>Facebook</span>
                             </a>
-                        </div>
+                        </li>
+                        <li class="auth-form__socials__item google">
+                            <a href="#">
+                                <i class="fab fa-google"></i>
+                                <span>Google</span>
+                            </a>
+                        </li>
+                    </ul>
 
-                        <div class="login__info-form__control">
-                            <button class="login__info-form__button">ĐĂNG NHẬP</button>
-                            <button id="login__info-form__button" class="login__info-form__button login__info-form__button--back">ĐĂNG KÝ</button>
-                            <script>
-                                document.getElementById("login__info-form__button").addEventListener("click", function () {
-                                    var register = document.getElementById("register__form");
-                                    var login = document.getElementById("login__form");
-                                    login.style.display = "none"
-                                    register.style.display = "block";
-                                    //alert("Hello World!");
-                                });
-                            </script>
-                        </div>
-                    </div>
-
-                    <div class="auth__info-form__socials">
-                        <a href="" class="auth__info-form__socials--facebook">
-                            <i class="auth__info-form__socials-icon fab fa-facebook-square"></i>
-                            <span class="auth__info-form__socials-label">Kết nối với Facebook</span>
-                        </a>
-                        <div class="modal__space"></div>
-                        <a href="" class="auth__info-form__socials--google">
-                            <i class=" auth__info-form__socials-icon fab fa-google"></i>
-                            <span class="auth__info-form__socials-label">Kết nối với Google</span>
-                        </a>
+                    <div class="auth-form__footer">
+                        <p>Already have an account?<button onclick="showForm()">Sign in now!</button></p>
                     </div>
                 </div>
 
+
+
+                <div id="login" action="/" method="POST" class="auth-form ">
+                    <div class="auth-form__header">
+                        <h2>Sign in</h2>
+                    </div>
+
+                    <div class="auth-form__group">
+                        <input type="text" class="auth-form__input" placeholder="Your Email, Phone number or Username">
+                    </div>
+                    <div class="auth-form__group">
+                        <input id="password" type="password" class="auth-form__input" placeholder="Your password">
+                        <i onclick="showPassword()" class="far fa-eye"></i>
+
+                    </div>
+
+                    <div class="auth-form__button">
+                        <input class="auth-form__auth-button" type="submit" value="Sign in">
+                    </div>
+
+                    <div class="auth-form__options">
+                        <a href="#">Forgot password?</a>
+                        <a href="#">Sign in with SMS</a>
+                    </div>
+
+                    <span class="style-text">Or</span>
+
+                    <ul class="auth-form__socials">
+                        <li class="auth-form__socials__item facebook">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                                <span>Facebook</span>
+                            </a>
+                        </li>
+                        <li class="auth-form__socials__item google">
+                            <a href="#">
+                                <i class="fab fa-google"></i>
+                                <span>Google</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="auth-form__footer">
+                        <p>You don't have an account yet? <button onclick="showForm()">Sign up now!</button></p>
+                    </div>
+                </div>
             </div>
         </div>
+
+    </div>
+    </div>
 
 
 
@@ -2682,6 +2580,25 @@
     </div>
 
     <script src="../js/include-html.js"></script>
+
+    <script>
+        let sign_up = document.getElementById('signup');
+        let login = document.getElementById('login');
+
+
+        function showForm() {
+            if (login.style.display == 'block') {
+                login.style.display = 'none';
+                sign_up.style.display = 'block';
+                return;
+            }
+            else {
+                login.style.display = 'block';
+                sign_up.style.display = 'none';
+                return;
+            }
+        }
+    </script>
 </body>
 
 </html>
