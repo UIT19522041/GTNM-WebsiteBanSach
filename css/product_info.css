@@ -1,3 +1,180 @@
+/* Form đăng nhập mới */
+.auth-form {
+	background: var(--white-color);
+	width: 400px;
+	padding: 30px;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.auth-form {
+	background: var(--white-color);
+	width: 400px;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
+}
+.auth-form .auth-form__header {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.auth-form .auth-form__header h2 {
+	font-size: 1.8rem;
+}
+
+.auth-form .auth-form__group {
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.auth-form .auth-form__group .auth-form__input {
+	font-size: 1.2rem;
+	width: 100%;
+	padding: 15px;
+	outline: none;
+}
+
+.auth-form .auth-form__group .fa-eye,
+.auth-form .auth-form__group .fa-eye-slash {
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 1.6rem;
+	transition: 0.3s;
+}
+
+.auth-form .auth-form__group .fa-eye:hover {
+	cursor: pointer;
+	color: var(--secondary-color);
+}
+
+.auth-form .auth-form__button {
+	margin-bottom: 5px;
+}
+
+.auth-form .auth-form__button .auth-form__auth-button {
+	width: 100%;
+	padding: 15px;
+	border: none;
+	background: var(--primary-color);
+	color: var(--white-color);
+	font-size: 1.5rem;
+	transition: 0.3s;
+}
+
+.auth-form .auth-form__button .auth-form__auth-button:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.auth-form .auth-form__options {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+.auth-form .auth-form__options a {
+	text-decoration: none;
+	color: var(--secondary-color);
+}
+
+.auth-form .auth-form__options a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.auth-form .style-text {
+	display: block;
+	text-align: center;
+	position: relative;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	color: var(--border-color);
+	margin-bottom: 15px;
+}
+
+.auth-form .style-text::before,
+.auth-form .style-text::after {
+	position: absolute;
+	top: 50%;
+	content: "";
+	width: 10rem;
+	border: 0.5px solid var(--border-color);
+}
+
+.auth-form .style-text:before {
+	right: 40px;
+}
+
+.auth-form .style-text:after {
+	left: 40px;
+}
+
+.auth-form .auth-form__socials {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 40px;
+}
+
+.auth-form .auth-form__socials .auth-form__socials__item {
+	margin: 0 5px;
+	flex: 1;
+	transition: 0.3s;
+}
+
+.auth-form .auth-form__socials .auth-form__socials__item:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.auth-form__socials__item a {
+	text-align: center;
+	display: block;
+	padding: 10px 15px;
+	font-size: 1.3rem;
+	width: 100%;
+	text-decoration: none;
+	color: var(--white-color);
+}
+
+.auth-form__socials__item a i {
+	margin-right: 5px;
+}
+
+.auth-form .auth-form__socials .facebook {
+	background: rgb(74, 138, 235);
+}
+
+.auth-form .auth-form__socials .google {
+	background: rgb(240, 54, 54);
+}
+
+.auth-form__footer {
+	text-align: center;
+}
+
+.auth-form__footer p {
+	font-size: 1.5rem;
+}
+
+.auth-form__footer p button {
+	background: none;
+	border: none;
+	outline: none;
+	padding: none;
+	color: var(--secondary-color);
+}
+
+.auth-form__footer p button:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.disappear {
+	display: none;
+}
+/* Kết thúc của form đăng nhập */
 /* product info tuan */
 
 .product__info-item__main {
@@ -883,8 +1060,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* color: var(--primary-color); */
-	font-size: 1.4rem;
+	font-size: 1.5rem;
 	color: var(--text-color);
 }
 
@@ -1280,10 +1456,8 @@ td {
 
 .product__customer__review-sort-bar__type {
 	display: flex;
-	font-weight: 500;
-	/* justify-content: center;
-    align-items: center; */
-	font-size: 1.2rem;
+	font-weight: bold;
+	font-size: 1.3rem;
 	position: relative;
 }
 
@@ -1455,6 +1629,7 @@ td {
 
 .product__customer__review-comment-evaluate-tag {
 	display: flex;
+	margin-top: 20px;
 	margin-bottom: 12px;
 	font-size: 1.3rem;
 }
@@ -1562,13 +1737,9 @@ td {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	/* justify-content: center;
-                            align-items: center; */
-	/* display: flex; */
 	animation: fadeIn 0.2s linear;
 	z-index: 2;
 	display: none;
-	/* padding-top: 400px; */
 }
 
 .modal__info__overlay {
@@ -1595,183 +1766,6 @@ td {
 }
 /* auth__info-form */
 
-/* Form đăng nhập mới */
-.auth-form {
-	background: var(--white-color);
-	width: 400px;
-	padding: 30px;
-	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
-}
-
-.auth-form {
-	background: var(--white-color);
-	width: 400px;
-	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
-}
-.auth-form .auth-form__header {
-	width: 100%;
-	margin-bottom: 30px;
-}
-
-.auth-form .auth-form__header h2 {
-	font-size: 1.8rem;
-}
-
-.auth-form .auth-form__group {
-	margin-bottom: 30px;
-	position: relative;
-}
-
-.auth-form .auth-form__group .auth-form__input {
-	font-size: 1.2rem;
-	width: 100%;
-	padding: 15px;
-	outline: none;
-}
-
-.auth-form .auth-form__group .fa-eye,
-.auth-form .auth-form__group .fa-eye-slash {
-	position: absolute;
-	right: 15px;
-	top: 50%;
-	transform: translateY(-50%);
-	font-size: 1.6rem;
-	transition: 0.3s;
-}
-
-.auth-form .auth-form__group .fa-eye:hover {
-	cursor: pointer;
-	color: var(--secondary-color);
-}
-
-.auth-form .auth-form__button {
-	margin-bottom: 5px;
-}
-
-.auth-form .auth-form__button .auth-form__auth-button {
-	width: 100%;
-	padding: 15px;
-	border: none;
-	background: var(--primary-color);
-	color: var(--white-color);
-	font-size: 1.5rem;
-	transition: 0.3s;
-}
-
-.auth-form .auth-form__button .auth-form__auth-button:hover {
-	cursor: pointer;
-	opacity: 0.8;
-}
-
-.auth-form .auth-form__options {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 15px;
-}
-
-.auth-form .auth-form__options a {
-	text-decoration: none;
-	color: var(--secondary-color);
-}
-
-.auth-form .auth-form__options a:hover {
-	cursor: pointer;
-	text-decoration: underline;
-}
-
-.auth-form .style-text {
-	display: block;
-	text-align: center;
-	position: relative;
-	font-size: 1.5rem;
-	text-transform: uppercase;
-	color: var(--border-color);
-	margin-bottom: 15px;
-}
-
-.auth-form .style-text::before,
-.auth-form .style-text::after {
-	position: absolute;
-	top: 50%;
-	content: "";
-	width: 10rem;
-	border: 0.5px solid var(--border-color);
-}
-
-.auth-form .style-text:before {
-	right: 40px;
-}
-
-.auth-form .style-text:after {
-	left: 40px;
-}
-
-.auth-form .auth-form__socials {
-	display: flex;
-	justify-content: center;
-	list-style: none;
-	padding-left: 0;
-	margin-bottom: 40px;
-}
-
-.auth-form .auth-form__socials .auth-form__socials__item {
-	margin: 0 5px;
-	flex: 1;
-	transition: 0.3s;
-}
-
-.auth-form .auth-form__socials .auth-form__socials__item:hover {
-	opacity: 0.8;
-	cursor: pointer;
-}
-
-.auth-form__socials__item a {
-	text-align: center;
-	display: block;
-	padding: 10px 15px;
-	font-size: 1.3rem;
-	width: 100%;
-	text-decoration: none;
-	color: var(--white-color);
-}
-
-.auth-form__socials__item a i {
-	margin-right: 5px;
-}
-
-.auth-form .auth-form__socials .facebook {
-	background: rgb(74, 138, 235);
-}
-
-.auth-form .auth-form__socials .google {
-	background: rgb(240, 54, 54);
-}
-
-.auth-form__footer {
-	text-align: center;
-}
-
-.auth-form__footer p {
-	font-size: 1.5rem;
-}
-
-.auth-form__footer p button {
-	background: none;
-	border: none;
-	outline: none;
-	padding: none;
-	color: var(--secondary-color);
-}
-
-.auth-form__footer p button:hover {
-	cursor: pointer;
-	text-decoration: underline;
-}
-
-.disappear {
-	display: none;
-}
-/* Kết thúc của form đăng nhập */
 /* write comment */
 
 .product__customer__review-write__comment {
@@ -1800,12 +1794,16 @@ td {
 	border: none;
 	background-color: var(--primary-color);
 	color: var(--white-color);
-	font-weight: 500;
 	font-size: 1.3rem;
 	text-transform: capitalize;
-	cursor: pointer;
 	align-self: end;
 }
+
+.product__customer__review-write__comment-submit:hover {
+	cursor: pointer;
+	background: var(--secondary-color);
+}
+
 /* --------------------------------- */
 /* moblie & tablet */
 
