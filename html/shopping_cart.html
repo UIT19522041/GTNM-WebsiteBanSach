@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bookstore</title>
+
+    <!-- ICON FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+
+    <!-- FONT FAMILY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;1,400&family=Lato:wght@300;400;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS RESET -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!-- CSS BASE-->
+    <link rel="stylesheet" href="../css/base.css">
+
+    <!-- CSS GRID SYSTEM -->
+    <link rel="stylesheet" href="../css/grid.css">
+
+    <!-- CSS for PAGE -->
+    <link rel="stylesheet" href="../css/template.css">
+
+    <!-- Copy link style của page -->
+
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <link rel="stylesheet" href="../css/shopping_cart.css">
+
+</head>
+
+<body>
+    <!-- Block Element Modifier -->
+    <div class="app">
+
+        <div include-html="../templates/header.html"></div>
+
+        <div class="app__container">
+            <div class="grid wide">
+
+                <!-- Viết code -->
+                <div class="row l-gutter shopping-cart">
+                    <div class="col l-8">
+                        <div class="shopping-cart__header">
+                            <h2 class="shopping-cart__title">
+                                My shopping cart
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col l-4">
+                        <div class="shopping-cart__pricebox">
+                            <h2 class="shopping-cart__total__title">Order Summary</h2>
+
+                            <div class="shopping-cart__price">
+                                <div class="shopping-cart__price__item">
+                                    <span>Subtotal (4 items)</span>
+                                    <span>$10.00</span>
+                                </div>
+                                <div class="shopping-cart__price__item">
+                                    <span>Estimated shipping</span>
+                                    <span>Free</span>
+                                </div>
+                                <div class="shopping-cart__price__item">
+                                    <span>Estimated tax</span>
+                                    <span>$0.00</span>
+                                </div>
+                            </div>
+
+                            <div class="shopping-cart__total">
+                                <span>Order Total:</span>
+                                <span>$10.00</span>
+                            </div>
+
+                            <button class="shopping-cart__checkout-button">CHECKOUT</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div include-html="../templates/footer.html"></div>
+
+        <!-- Modal layout -->
+        <!-- <div class="modal">
+            <div class="modal__overlay"></div>
+            
+            <div class="modal__body"> -->
+        <!-- Register form -->
+        <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng ký</h3>
+                            <span class="auth-form__switch-btn">Đăng nhập</span>
+                        </div>
+
+                        <div class="auth-form__form">
+                            <div class="auth-forn__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                            </div>
+                            <div class="auth-forn__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            </div>
+                            <div class="auth-forn__group">
+                                <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                            </div>
+                        </div>
+
+                        <div class="auth-form__aside">
+                            <p class="auth-form__policy-text">
+                                Bằng việc đăng ký, bạn đã đồng ý với F8 - Shopee về 
+                                <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a>
+                                &
+                                <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                            </p>
+                        </div>
+
+                        <div class="auth-form__control">
+                            <button class="btn btn--normal auth-form__control-back">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fab fa-facebook-square"></i>                            
+                            <span class="auth-form__socials-label">Kết nối với Facebook</span>
+                        </a>
+                        <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                            <img class="auth-form__socials-icon-img" src="./assets/img/google_50px.png" alt="">
+                            <span class="auth-form__socials-label">Kết nối với Google</span>
+                        </a>
+                    </div>
+                </div> -->
+
+        <!-- Login form -->
+        <!-- <div class="auth-form"> 
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng nhập</h3>
+                            <span class="auth-form__switch-btn">Đăng ký</span>
+                        </div>
+
+                        <div class="auth-form__form">
+                            <div class="auth-forn__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                            </div>
+                            <div class="auth-forn__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            </div>
+                        </div>
+
+                        <div class="auth-form__aside">
+                            <div class="auth-form__help">
+                                <a href="" class="auth-form__help-link auth-form__help-link--forgot">Quên mật khẩu</a>
+                                <span class="auth-form__help-separate"></span>
+                                <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                            </div>
+                        </div>
+
+                        <div class="auth-form__control">
+                            <button class="btn btn--normal auth-form__control-back">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fab fa-facebook-square"></i>                            
+                            <span class="auth-form__socials-label">Đăng nhập với Facebook</span>
+                        </a>
+                        <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                            <img class="auth-form__socials-icon-img" src="./assets/img/google_50px.png" alt="">
+                            <span class="auth-form__socials-label">Đăng nhập với Google</span>
+                        </a>
+                    </div>
+                </div> -->
+    </div>
+    </div>
+    </div>
+
+    <script src="../js/include-html.js"></script>
+</body>
+
+</html>
