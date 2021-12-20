@@ -11,7 +11,7 @@
 .app__header {
 	height: var(--header-height);
 	background-color: var(--white-color);
-	margin-bottom: 30px;
+	/* margin-bottom: 20px; */
 }
 
 .header__navbar {
@@ -179,7 +179,7 @@
 	transform-origin: calc(100% - 30px) top;
 	animation: headerNotifyGrowth ease-in 0.2s;
 	will-change: opacity, transform;
-	z-index: 2;
+	z-index: 3;
 	display: none;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
@@ -503,6 +503,7 @@
 }
 .header__navbar-user {
 	display: inherit;
+	/* display: none; */
 }
 
 .header__navbar-user-img {
@@ -637,7 +638,7 @@
 	bottom: 0;
 	width: 300px;
 	max-width: 60%;
-
+	overflow-y: auto;
 	background-color: var(--white-color);
 	z-index: 2;
 
@@ -655,18 +656,28 @@
 }
 
 .header__mobile-menu-heading {
-	font-size: 2rem;
-	padding-left: 20px;
-	margin-top: 50px;
+	font-size: 1.8rem;
+    padding: 20px;
+    margin: 5px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+.header__mobile-menu-heading i[class*="up"] {
+	display: block;
+}
+
+.header__mobile-menu-heading i[class*="up"] {
+	display: none;
 }
 
 .header__mobile-menu-list {
 	padding-left: 0;
 	list-style: none;
-}
-
-.header__mobile-menu-item:first-child .header__mobile-menu-link {
-	border-top: 1px solid #ccc;
+	display: none;
 }
 
 .header__mobile-menu-item--active .header__mobile-menu-link {
@@ -680,23 +691,35 @@
 	color: var(--text-color);
 	padding: 16px;
 	padding-left: 40px;
-	border-bottom: 1px solid #ccc;
+}
+
+.header__mobile-menu-item:hover .header__mobile-menu-link{
+	color: var(--primary-color);
+	font-weight: 600;
 }
 
 .header__mobile-menu-icon,
 .header__mobile-search-icon {
 	font-size: 2.4rem;
-	color: var(--white-color);
+	color: var(--black-color);
 }
 
 .header__mobile-menu-icon {
-	padding-left: 6px;
-	padding-right: 12px;
+	padding: 6px 12px;
 }
 
 .header__mobile-search-icon {
 	padding-left: 12px;
 	padding-right: 12px;
+}
+
+#chk_menu-user:checked ~ .header__mobile-menu-list,
+#chk_menu-books:checked ~ .header__mobile-menu-list,
+#chk_menu-ebooks:checked ~ .header__mobile-menu-list,
+#chk_menu-children:checked ~ .header__mobile-menu-list,
+#chk_menu-toy-game:checked ~ .header__mobile-menu-list,
+#chk_menu-stationery:checked ~ .header__mobile-menu-list { 
+	display: block;
 }
 
 .header__mobile-search-input:checked ~ .header__search {
@@ -998,7 +1021,7 @@
 }
 
 .header__search-input:focus ~ .header__search-history {
-	display: block;
+	/* display: block; */
 }
 
 .header__search-select {
@@ -1088,7 +1111,7 @@
 	box-shadow: 0 0 2px var(--primary-color);
 	padding-left: 0;
 	border-radius: 3px;
-	z-index: 2;
+	z-index: 3;
 	display: none;
 	animation: fadeIn ease-in 0.1s;
 	overflow: hidden;
@@ -1143,7 +1166,7 @@
 	border-radius: 3px;
 	box-shadow: 0 1px 5px #dadada;
 	overflow: hidden;
-	z-index: 1;
+	z-index: 2;
 	display: none;
 }
 
@@ -1368,7 +1391,7 @@
 
 .footer__top {
 	/* border-top: 2px solid var(--border-color); */
-	padding: 40px 0 30px;
+	padding: 40px 20px 30px;
 	/* align-items: center; */
 }
 
@@ -1420,7 +1443,7 @@
 .footer-input__input {
 	border: none;
 	outline: none;
-	flex: 1;
+	width: 100%;
 	padding: 10px;
 	font-size: 1.4rem;
 	border: 1px solid transparent;

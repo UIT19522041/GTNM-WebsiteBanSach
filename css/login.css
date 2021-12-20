@@ -72,6 +72,9 @@
 	color: var(--white-color);
 	font-size: 1.5rem;
 	transition: 0.3s;
+	text-decoration: none;
+	text-align: center;
+	display: block;
 }
 
 .auth-form .auth-form__button .auth-form__auth-button:hover {
