@@ -12,12 +12,12 @@
 }
 
 .sidebar__heading-name {
-	font-size: 1.3rem;
-	font-weight: 500;
+	font-size: 1.4rem;
+	font-weight: 600;
 }
 
 .sidebar__heading-button {
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	font-weight: 550;
 	color: var(--primary-color);
 }
@@ -41,6 +41,7 @@
 }
 
 .sidebar__search-name {
+	font-size: 1.3rem;
 	margin-right: 6px;
 	color: #707070;
 }
@@ -62,7 +63,7 @@
 
 .sidebar__filter-name {
 	line-height: 22px;
-	font-size: 1.1rem;
+	font-size: 1.3rem;
 	font-weight: 400;
 	color: var(--text-color);
 }
@@ -85,6 +86,7 @@
 .sidebar__group-header {
 	font-size: 1.3rem;
 	margin-bottom: 16px;
+	font-weight: 600;
 }
 
 .sidebar__group-list {
@@ -97,8 +99,8 @@
 }
 
 .sidebar__name-item {
-	line-height: 1.4rem;
-	font-size: 1.1rem;
+	line-height: 1.2;
+	font-size: 1.3rem;
 	font-weight: 400;
 	color: var(--text-color);
 	text-align: left;

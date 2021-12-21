@@ -9,6 +9,11 @@
     margin: 0 auto;
 }
 
+.grid.wide.sm-wide {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /* Đi từ mobile đến PC */
 /* Mobile */
 .row {

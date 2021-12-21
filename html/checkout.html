@@ -2,48 +2,48 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Online Bookstore</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bookstore</title>
 
-	<!-- ICON FONTAWESOME -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-		integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-		crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ICON FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
 
-	<!-- FONT FAMILY -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;1,400&family=Lato:wght@300;400;700;900&display=swap"
-		rel="stylesheet">
+    <!-- FONT FAMILY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;1,400&family=Lato:wght@300;400;700;900&display=swap"
+        rel="stylesheet">
 
-	<!-- CSS RESET -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- CSS RESET -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
-	<link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon.ico">
-	<link rel="stylesheet" href="../css/base.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../css/base.css">
 
-	<!-- CSS GRID SYSTEM -->
-	<link rel="stylesheet" href="../css/grid.css">
+    <!-- CSS GRID SYSTEM -->
+    <link rel="stylesheet" href="../css/grid.css">
 
-	<!-- CSS for PAGE -->
-	<link rel="stylesheet" href="../css/template.css">
+    <!-- CSS for PAGE -->
+    <link rel="stylesheet" href="../css/template.css">
 
-	<!-- Copy link style của page -->
+    <!-- Copy link style của page -->
 
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/checkout.css">
+    <link rel="stylesheet" href="../css/shopping_cart.css">
 
-	<link rel="stylesheet" href="../css/responsive.css">
-	<link rel="stylesheet" href="../css/about.css">
 
 </head>
 
 <body>
-	<!-- Block Element Modifier -->
-	<div class="app">
+    <!-- Block Element Modifier -->
+    <div class="app">
 
-		<header class="app__header">
+        <header class="app__header">
             <div class="grid wide">
                 <nav class="header__navbar hide-on-mobile-tablet">
                     <ul class="header__navbar-list">
@@ -603,6 +603,72 @@
                                                     <a href=""
                                                         class="header__cart-item-author text-ellipsis-line-1">Kohei
                                                         Horikoshi</a>
+                                                    <span class="header__cart-item-remove">Remove</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="header__cart-item">
+                                            <img src="../assets/images/template/cart-2.jpg" alt=""
+                                                class="header__cart-item-img">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-head">
+                                                    <a href=""
+                                                        class="header__cart-item-name text-ellipsis-line-2">Bewilderment
+                                                        (Oprah's Book Club)</a>
+                                                    <div class="header__cart-item-price-wrap">
+                                                        <span class="header__cart-item-price">$22.49</span>
+                                                        <span class="header__cart-item-multiply">x</span>
+                                                        <span class="header__cart-item-qnt">1</span>
+                                                    </div>
+                                                </div>
+                                                <div class="header__cart-item-body">
+                                                    <a href=""
+                                                        class="header__cart-item-author text-ellipsis-line-1">Richard
+                                                        Powers</a>
+                                                    <span class="header__cart-item-remove">Remove</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="header__cart-item">
+                                            <img src="../assets/images/template/cart-3.jpg" alt=""
+                                                class="header__cart-item-img">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-head">
+                                                    <a href="" class="header__cart-item-name text-ellipsis-line-2">My
+                                                        Hero Academia, Vol. 11</a>
+                                                    <div class="header__cart-item-price-wrap">
+                                                        <span class="header__cart-item-price">$49.95</span>
+                                                        <span class="header__cart-item-multiply">x</span>
+                                                        <span class="header__cart-item-qnt">5</span>
+                                                    </div>
+                                                </div>
+                                                <div class="header__cart-item-body">
+                                                    <a href=""
+                                                        class="header__cart-item-author text-ellipsis-line-1">Kohei
+                                                        Horikoshi</a>
+                                                    <span class="header__cart-item-remove">Remove</span>
+                                                </div>
+                                            </div>
+                                        </li>
+        
+                                        <li class="header__cart-item">
+                                            <img src="../assets/images/template/cart-1.jpg" alt=""
+                                                class="header__cart-item-img">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-head">
+                                                    <a href="" class="header__cart-item-name text-ellipsis-line-2">The
+                                                        Shadow and Bone Trilogy Boxed Set:
+                                                        Shadow and Bone, Siege and Storm, Ruin and Rising</a>
+                                                    <div class="header__cart-item-price-wrap">
+                                                        <span class="header__cart-item-price">$26.36</span>
+                                                        <span class="header__cart-item-multiply">x</span>
+                                                        <span class="header__cart-item-qnt">2</span>
+                                                    </div>
+                                                </div>
+                                                <div class="header__cart-item-body">
+                                                    <a href=""
+                                                        class="header__cart-item-author text-ellipsis-line-1">Leigh
+                                                        Bardugo</a>
                                                     <span class="header__cart-item-remove">Remove</span>
                                                 </div>
                                             </div>
@@ -1238,168 +1304,279 @@
         </ul> -->
         </header>
 
-		<div class="app__container">
-			<div class="grid wide">
-				<div class="about">
-					<div class="about__header">
-						<h1 class="about__header__title">BookSafe - Bringing you knowledge since 2021</h1>
-					</div>
+        <div class="app__container">
+            <div class="grid wide sm-wide">
 
-					<div class="about__content">
-						<div class="about__content-section">
-							<h2 class="about__content__heading">
-								Our story
-							</h2>
-							<div class="about__content__info">
-								<p>
-									We believe reading empowers people, offering them empathy to live for a moment in
-									someone else's
-									shoes, education—a critical asset
-									to improving one's
-									life—and an occasional escape to fantastic worlds inhabited by interesting
-									characters. Yes, we save
-									millions of books every year
-									from being destroyed,
-									but our mission goes beyond the environment. We save these books and make them
-									accessible to readers
-									for the chance to shape another
-									mind, share
-									another story, and teach a bit of wisdom.
-								</p>
-							</div>
-						</div>
-					</div>
+                <!-- Viết code -->
+                <div class="row l-gutter shopping-cart">
+                    <div class="col l-8 m-12 c-12">
+                        <section class="section">
+                            <h2 class="section__heading">1. Shipping Address</h2>
+                            <div class="row">
+                                <div class="col l-6 m-6 c-12">
+                                    <input type="text" placeholder="Full Name">
+                                </div>
+                                <div class="col l-6 m-6 c-12">
+                                    <input type="tel" placeholder="Phone Number">
+                                </div>
+                                <div class="col l-6 m-6 c-12">
+                                    <select name="city" id="city" class="form-group__input">
+                                        <option value="0">Choose your city</option>
+                                        <option value="1">Ho Chi Minh City</option>
+                                        <option value="2">Ha Noi</option>
+                                        <option value="3">Nha Trang</option>
+                                        <option value="4">Da Lat</option>
+                                        <option value="5">Ca Mau</option>
+                                        <option value="6">Bien Hoa</option>
+                                        <option value="7">Hai Phong</option>
+                                        <option value="8">Hue</option>
+                                        <option value="9">Vung Tau</option>
+                                    </select>
+                                </div>
+                                <div class="col l-6 m-6 c-12">
+                                    <select name="district" id="district" class="form-group__input">
+                                        <option value="0">Choose your district</option>
+                                        <option value="1">District 1</option>
+                                        <option value="2">District 2</option>
+                                        <option value="3">District 3</option>
+                                        <option value="4">District 4</option>
+                                        <option value="5">District 5</option>
+                                        <option value="6">District 6</option>
+                                        <option value="7">District 7</option>
+                                        <option value="8">District 8</option>
+                                        <option value="9">District 9</option>
+                                        <option value="10">District 10</option>
+                                        <option value="11">District 11</option>
+                                        <option value="12">District 12</option>
+                                        <option value="13">Binh Tan District</option>
+                                        <option value="14">Binh Thanh District</option>
+                                        <option value="15">Go Vap District</option>
+                                        <option value="16">Phu Nhuan District</option>
+                                        <option value="17">Tan Binh District</option>
+                                        <option value="18">Tan Phu District</option>
+                                        <option value="19">Thu Duc District</option>
+                                        <option value="20">Binh Chanh District</option>
+                                        <option value="21">Can Gio District</option>
+                                        <option value="22">Cu Chi District</option>
+                                        <option value="23">Hoc Mon District</option>
+                                        <option value="24">Nha Be District</option>
+                                    </select>
+                                </div>
+                                <div class="col l-12 m-12 c-12">
+                                    <input type="text" placeholder="Street Address">
+                                </div>
+                            </div>
+                        </section>
 
-					<div class="about__content-section">
-						<h2 class="about__content__heading">
-							Our purpose
-						</h2>
-						<div class="about__content__info">
-							<p>ThriftBooks started in 2003 with a pick-up truck of used books stashed in a storage unit,
-								listing books
-								solely on Amazon.com. Our
-								first book sold was
-								the beloved children's classic, Charlotte's Web by E.B. White. Over the years, we've
-								added regional
-								processing centers across the
-								country and hundreds
-								of employees. Throughout this time, we also built our processes to purchase, grade, and
-								distribute used
-								and rare/collectible books.
-							</p>
+                        <section class="section">
+                            <h2 class="section__heading">2. Shipping Options</h2>
+                            <div class="row">
+                                <div class="col l-12 m-12 c-12">
+                                    <input type="radio" name="shipping" id="shipping_standard">
+                                    <label for="shipping_standard"><b>Standard Shipping</b> : Typically arrives in 3-5 business days
+                                    </label>
+                                </div>
+                                <div class="col l-12 m-12 c-12">
+                                    <input type="radio" name="shipping" id="shipping_express">
+                                    <label for="shipping_express"><b>Express Shipping</b> : Typically arrives in 1-2 business days </label>
+                                </div>
+                            </div>
+                        </section>
 
-							<div class="about__content__column">
-								<div class="about__content__column-item">
-									<h3>Cultivate Curiosity</h3>
-									<p>Like the thrill of learning to read, we seek to explore the unexplored, we seek
-										to innovate. Reward
-										does not come without some
-										risk, so we try new
-										things. Through curiosity we discover new stories, new information, and new
-										approaches, and we
-										recall the thrill of learning
-										once again—eureka!</p>
-								</div>
-								<div class="about__content__column-item">
-									<h3>Unite Strengths</h3>
-									<p>From our community of readers to our Processing Center teams to our suppliers, we
-										are connected.
-										While individually we each bring
-										strengths, it is
-										through unification of these that we achieve the greatest success. We work
-										together to create
-										extraordinary outcomes. We encourage
-										feedback—from our
-										customers, from our partners, and from each other. To do our best, we must
-										behave as equals,
-										offering transparency, showing
-										respect, and caring for
-										each other and our customers.</p>
-								</div>
-								<div class="about__content__column-item">
-									<h3>Deliver Value</h3>
-									<p>Our customers, like our business, seek value and we deliver. We are adopting the
-										benefits of
-										improved technology, advances in
-										automation and warehouse
-										processing, and increased scale to improve efficiency and the customer
-										experience. We are leveraging
-										data to improve merchandising
-										yielding better
-										bundles and revenue for the business and improved access for our customers.</p>
-								</div>
-							</div>
-						</div>
+                        <section class="section">
+                            <h2 class="section__heading">3. Payment Details</h2>
+                            <div class="row">
+                                <div class="col l-12 m-12 c-12">
+                                    <input type="radio" name="payment" id="credit">
+                                    <label for="credit">Credit Card</label>
+                                </div>
+                                <div class="col l-12 m-12 c-12">
+                                    <input type="radio" name="payment" id="cash">
+                                    <label for="cash">Payment after receiving orders.</label>
+                                </div>
+                                <div class="col l-12 m-12 c-12">
+                                    <input type="radio" name="payment" id="wallet">
+                                    <label for="wallet">Electronic wallet</label>
+                                </div>
+                            </div>
+                        </section>
 
-						<div class="about__content-section">
-							<h2 class="about__content__heading">
-								Our team
-							</h2>
-							<div class="about__content__info">
-								<div class="about__content__column">
-									<div class="about__content__column-item">
-										<div class="about__content__column-item__image">
-											<img src="../assets/images/about/member-5.jpg" alt="Team member">
-										</div>
-										<p class="about__content__column-item__name">Team Member</p>
-									</div>
+                        <section class="section">
+                            <h2 class="section__heading">4. Review Orders</h2>
+                            <ul class="shopping-cart__list">
+                                <li class="shopping-cart__list__item">
+                                    <div class="row">
+                                        <div class="col l-2 m-2 c-4">
+                                            <div class="shopping-cart__item__image">
+                                                <img src="../assets/images/template/cart-1.jpg">
+    
+                                            </div>
+    
+                                        </div>
+                                        <div class="col l-10 m-10 c-8">
+                                            <div class="shopping-cart__item__content">
+                                                <div class="row">
+                                                    <div class="col l-7 m-7 c-12">
+                                                        <div class="shopping-cart__item__header">
+                                                            <h3 class="text-ellipsis-line-2">The Shadow and Bone Trilogy Boxed Set: Shadow and Bone, Siege and Storm, Ruin and Rising</h3>
+                                                            <p>By: Leigh Bardugo</p>
+                                                            <p>Paperback</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col l-5 m-5 c-12">
+                                                        <div class="shopping-cart__item__price">
+                                                            <div class="row">
+                                                                <div class="col l-4 m-4 c-4">
+                                                                    <span class="price">$13.38</span>
+                                                                </div>
+                                                                <div class="col l-4 m-4 c-4">
+                                                                    <span class="price">Qty: 2</span>
+    
+                                                                </div>
+                                                                <div class="col l-4 m-4 c-4">
+                                                                    <span class="total">$26.36</span>
+                                                                </div>
+    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+    
+                                    </div>
+    
+                                </li>
+                                <li class="shopping-cart__list__item">
+                                    <div class="row">
+                                        <div class="col l-2 m-2 c-4">
+                                            <div class="shopping-cart__item__image">
+                                                <img src="../assets/images/template/cart-2.jpg">
+    
+                                            </div>
+    
+                                        </div>
+                                        <div class="col l-10 m-10 c-8">
+                                            <div class="shopping-cart__item__content">
+                                                <div class="row">
+                                                    <div class="col l-7 m-7 c-12">
+                                                        <div class="shopping-cart__item__header">
+                                                            <h3 class="text-ellipsis-line-2">Bewilderment (Oprah's Book Club)</h3>
+                                                            <p>By: Richard Powers</p>
+                                                            <p>Paperback</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col l-5 m-5 c-12">
+                                                        <div class="shopping-cart__item__price">
+                                                            <div class="row">
+                                                                <div class="col l-4 m-4 c-4">
+                                                                    <span class="price">$22.49</span>
+                                                                </div>
+                                                                <div class="col l-4 m-4 c-4">
+                                                                    <span class="price">Qty: 1</span>
+    
+                                                                </div>
+                                                                <div class="col l-4 m-4 c-4">
+                                                                    <span class="total">$22.49</span>
+                                                                </div>
+    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+    
+                                    </div>
+    
+                                </li>
+                                <li class="shopping-cart__list__item">
+                                    <div class="row">
+                                        <div class="col l-2 m-2 c-4">
+                                            <div class="shopping-cart__item__image">
+                                                <img src="../assets/images/template/cart-3.jpg">
+    
+                                            </div>
+    
+                                        </div>
+                                        <div class="col l-10 m-10 c-8">
+                                            <div class="shopping-cart__item__content">
+                                                <div class="row">
+                                                    <div class="col l-7 m-7 c-12">
+                                                        <div class="shopping-cart__item__header">
+                                                            <h3 class="text-ellipsis-line-2">My Hero Academia, Vol. 11</h3>
+                                                            <p>By: Kohei Horikoshi</p>
+                                                            <p>Paperback</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col l-5 m-5 c-12">
+                                                        <div class="shopping-cart__item__price">
+                                                            <div class="row">
+                                                                <div class="col l-4 m-4 c-4">
+                                                                    <span class="price">$9.99</span>
+                                                                </div>
+                                                                <div class="col l-4 m-4 c-4">
+                                                                    <span class="price">Qty: 5</span>
+    
+                                                                </div>
+                                                                <div class="col l-4 m-4 c-4">
+                                                                    <span class="total">$49.95</span>
+                                                                </div>
+    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+    
+                                    </div>
+    
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
 
-									<div class="about__content__column-item">
-										<div class="about__content__column-item__image">
-											<img src="../assets/images/about/member-1.jpg" alt="Team member">
-										</div>
-										<p class="about__content__column-item__name">Team Member</p>
-									</div>
+                    <div class="col l-4 m-12 c-12">
+                        <div class="shopping-cart__pricebox">
+                            <h2 class="shopping-cart__total__title">Order Summary</h2>
 
-									<div class="about__content__column-item">
-										<div class="about__content__column-item__image">
-											<img src="../assets/images/about/member-2.jpg" alt="Team member">
-										</div>
-										<p class="about__content__column-item__name">Team Member</p>
-									</div>
+                            <div class="shopping-cart__price">
+                                <div class="shopping-cart__price__item">
+                                    <span>Subtotal (4 items)</span>
+                                    <span>$98.8</span>
+                                </div>
+                                <div class="shopping-cart__price__item">
+                                    <span>Estimated shipping</span>
+                                    <span>Free</span>
+                                </div>
+                                <div class="shopping-cart__price__item">
+                                    <span>Estimated tax</span>
+                                    <span>$0.00</span>
+                                </div>
+                            </div>
 
-									<div class="about__content__column-item">
-										<div class="about__content__column-item__image">
-											<img src="../assets/images/about/member-3.jpg" alt="Team member">
-										</div>
-										<p class="about__content__column-item__name">Team Member</p>
-									</div>
+                            <div class="shopping-cart__total">
+                                <span>Order Total:</span>
+                                <span>$98.8</span>
+                            </div>
 
-									<div class="about__content__column-item">
-										<div class="about__content__column-item__image">
-											<img src="../assets/images/about/member-4.jpg" alt="Team member">
-										</div>
-										<p class="about__content__column-item__name">Team Member</p>
-									</div>
+                            <a href="./index.html" class="shopping-cart__checkout-button">Submit Order</a>
+                        </div>
 
-								</div>
-							</div>
-						</div>
+                        <div class="shopping-cart__coupon">
+                            <input type="text" class="shopping-cart__coupon__input" placeholder="Enter coupon code">
+                            <input type="submit" class="shopping-cart__coupon__submit" value="Apply">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-						<div class="about__content-section">
-							<h2 class="about__content__heading">
-								Our donation program
-							</h2>
-							<div class="about__content__info">
-								<p>
-									BookSafe's donation program aims to help young and in need students to gain access
-									to school supplies
-									so they don't have to worry
-									about it. Started since 2020, BookSafe has gained over 1,000,000 books from the
-									public to empower the
-									less fortunate.
-								</p>
-
-								<a href="../html/donate.html" class="about__content__info__link">Find out more</a>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<footer class="app__footer">
+        <footer class="app__footer">
     <div class="grid wide">
         <div class="row footer__top">
             <div class="col l-9 m-12 c-12">
@@ -1581,11 +1758,10 @@
         </div>
     </div>
 </footer>
-	</div>
+    </div>
 
-	<script src="../js/include-html.js"></script>
-	<script src="../js/app.js"></script>
-
+    <script src="../js/include-html.js"></script>
+    <script src="../js/app.js"></script>
 </body>
 
 </html>

@@ -75,6 +75,7 @@ console.log(history_items);
 
 input.onclick = function (e) {
     e.stopPropagation();
+    e.preventDefault();
     history.style.display = 'block';
 }
 
