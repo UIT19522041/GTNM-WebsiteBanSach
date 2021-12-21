@@ -3,6 +3,9 @@
 		margin-top: 10px;
 		padding: 0 10px;
 	}
+	.related-posts__item img{
+		width: 200px;
+	}
 }
 
 p {
@@ -90,15 +93,24 @@ p {
 }
 
 .related-posts {
-	display: flex;
+	/* display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-	margin-top: 30px;
+	margin-top: 30px; */
+}
+
+.related-posts .row {
+	overflow-x: auto;
+	flex-wrap: nowrap;
 }
 
 .related-posts__item {
 	text-decoration: none;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .related-posts__item__title {
@@ -114,4 +126,9 @@ p {
 		font-size: 3rem;
 		line-height: 3.5rem;
 	}
+}
+
+.product__info__more-series__list .row{
+	overflow-x: auto;
+	flex-wrap: nowrap;
 }
