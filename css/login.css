@@ -8,10 +8,10 @@
 
 .header-login__logo-img {
 	width: 100%;
-    fill: #fff;
-    height: 40px;
-    object-fit: contain;
-    object-position: center;
+	fill: #fff;
+	height: 40px;
+	object-fit: contain;
+	object-position: center;
 }
 
 .auth-container {
@@ -119,6 +119,8 @@
 	position: relative;
 	font-size: 1.5rem;
 	text-transform: uppercase;
+	padding: 0px 10px;
+	background: var(--white-color);
 	color: var(--border-color);
 	margin-bottom: 15px;
 }
